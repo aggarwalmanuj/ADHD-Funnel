@@ -1,0 +1,6638 @@
+⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[browser] Image with src "/images/AI merge Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/HeroSection.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://www.aimerge.live/logos/pearson.png?dpl=dpl_4t9nuv3RZs2gMjxMZ9Q8r9UFdCmC" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "https://www.aimerge.live/logos/un.png?dpl=dpl_4t9nuv3RZs2gMjxMZ9Q8r9UFdCmC" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/Meeting.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+[browser] ./components/Nav.tsx:87:20
+Expected '</', got 'jsx text'
+  85 |           </button>
+  86 |         )}
+> 87 |       </motion.nav>
+     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 88 |
+     | ^
+> 89 |       {/* Mobile drawer */}
+     | ^^^^^^
+  90 |       <AnimatePresence>
+  91 |         {isMobile && open && (
+  92 |           <motion.div
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./components/Nav.tsx
+    ./app/page.tsx 
+⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+⚠ Unsupported metadata viewport is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[browser] Image with src "/images/AI merge Logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "https://www.aimerge.live/logos/pearson.png?dpl=dpl_4t9nuv3RZs2gMjxMZ9Q8r9UFdCmC" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/HeroSection.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "https://www.aimerge.live/logos/un.png?dpl=dpl_4t9nuv3RZs2gMjxMZ9Q8r9UFdCmC" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/Meeting.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
