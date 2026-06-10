@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 import FadeIn from "./FadeIn";
 import { useIsMobile } from "../hooks/useIsMobile";
 
@@ -16,6 +17,8 @@ const cards = [
     sub: "The stories you carry — those were put there. By every school that told you to settle down. By every framework that said just build the habit. That story was never yours.",
   },
 ];
+
+const EASE = [0.22, 1, 0.36, 1] as const;
 
 export default function Pain() {
   const isMobile = useIsMobile();
@@ -38,13 +41,23 @@ export default function Pain() {
 
         <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3,1fr)", gap: isMobile ? 16 : 20 }}>
           {cards.map((c, i) => (
-            <FadeIn key={i} delay={i * 0.1}>
-              <div style={{ borderRadius: 12, padding: isMobile ? "28px 24px" : "36px 32px", background: "var(--bg-card)", border: "1px solid var(--border)", height: "100%", boxSizing: "border-box" }}>
+            <FadeIn key={i} delay={i * 0.12}>
+              <motion.div
+                whileHover="hover"
+                initial="rest"
+                animate="rest"
+                variants={{
+                  rest: { y: 0, borderColor: "var(--border)" },
+                  hover: { y: -6, borderColor: "var(--accent)" },
+                }}
+                transition={{ duration: 0.55, ease: EASE }}
+                style={{ borderRadius: 12, padding: isMobile ? "28px 24px" : "36px 32px", background: "var(--bg-card)", border: "1px solid var(--border)", height: "100%", boxSizing: "border-box", cursor: "default" }}
+              >
                 <p style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(17px,1.8vw,22px)", fontStyle: "italic", lineHeight: 1.5, color: "rgba(255,255,255,0.88)", marginBottom: 16 }}>
                   <span style={{ color: "var(--accent)" }}>&ldquo;</span>{c.quote}<span style={{ color: "var(--accent)" }}>&rdquo;</span>
                 </p>
                 <p style={{ fontSize: 14, lineHeight: 1.75, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>{c.sub}</p>
-              </div>
+              </motion.div>
             </FadeIn>
           ))}
         </div>

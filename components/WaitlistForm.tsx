@@ -58,7 +58,7 @@ export default function WaitlistForm() {
   ];
 
   return (
-    <section id="waitlist" style={{ borderTop: "1px solid var(--border)", background: "var(--bg-2)" }}>
+    <section id="waitlist" style={{ borderTop: "1px solid var(--border)", background: "var(--bg-alt)" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: isMobile ? "64px 20px" : "96px 64px" }}>
 
         {/* Section header */}
@@ -87,7 +87,7 @@ export default function WaitlistForm() {
             <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
               {sidePoints.map((p, i) => (
                 <div key={i} style={{ display: "flex", gap: 16, alignItems: "flex-start" }}>
-                  <div style={{ width: 32, height: 32, borderRadius: "50%", background: "rgba(200,169,110,0.1)", border: "1px solid rgba(200,169,110,0.2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
+                  <div style={{ width: 32, height: 32, borderRadius: "50%", background: "rgba(232,150,42,0.1)", border: "1px solid rgba(232,150,42,0.2)", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0, marginTop: 2 }}>
                     <span style={{ fontSize: 11, fontWeight: 700, color: "var(--accent)", fontFamily: "var(--font-body)" }}>{String(i + 1).padStart(2, "0")}</span>
                   </div>
                   <div>
@@ -99,7 +99,7 @@ export default function WaitlistForm() {
             </div>
 
             {/* Stat callout */}
-            <div style={{ marginTop: 36, padding: "20px 24px", borderRadius: 10, background: "rgba(200,169,110,0.05)", border: "1px solid rgba(200,169,110,0.15)" }}>
+            <div style={{ marginTop: 36, padding: "20px 24px", borderRadius: 10, background: "rgba(232,150,42,0.05)", border: "1px solid rgba(232,150,42,0.15)" }}>
               <div style={{ fontFamily: "var(--font-heading)", fontSize: 40, fontWeight: 400, color: "var(--accent)", lineHeight: 1, marginBottom: 8 }}>29%</div>
               <p style={{ fontSize: 13, lineHeight: 1.65, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>
                 of entrepreneurs self-report ADHD — six times the general adult population. <span style={{ color: "rgba(255,255,255,0.45)" }}>— Freeman MD, UCSF</span>
@@ -119,7 +119,7 @@ export default function WaitlistForm() {
               {/* Tabs */}
               <div style={{ display: "flex", borderBottom: "1px solid var(--border)", overflowX: "auto" }}>
                 {tabs.map((t, i) => (
-                  <div key={i} style={{ flex: "1 0 auto", padding: "12px 8px", textAlign: "center", fontSize: isMobile ? 11 : 12, fontWeight: 500, fontFamily: "var(--font-body)", borderBottom: `2px solid ${page === i + 1 ? "var(--accent)" : "transparent"}`, color: page === i + 1 ? "var(--accent)" : page > i + 1 ? "rgba(200,169,110,0.45)" : "var(--text-dim)", transition: "all 0.2s", whiteSpace: "nowrap" }}>
+                  <div key={i} style={{ flex: "1 0 auto", padding: "12px 8px", textAlign: "center", fontSize: isMobile ? 11 : 12, fontWeight: 500, fontFamily: "var(--font-body)", borderBottom: `2px solid ${page === i + 1 ? "var(--accent)" : "transparent"}`, color: page === i + 1 ? "var(--accent)" : page > i + 1 ? "rgba(232,150,42,0.45)" : "var(--text-dim)", transition: "all 0.2s", whiteSpace: "nowrap" }}>
                     {t}
                   </div>
                 ))}
@@ -127,18 +127,18 @@ export default function WaitlistForm() {
 
               {submitted ? (
                 <div style={{ padding: isMobile ? "40px 24px" : "48px 40px", textAlign: "center" }}>
-                  <div style={{ width: 56, height: 56, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 20px", background: "rgba(200,169,110,0.1)", border: "1px solid rgba(200,169,110,0.28)" }}>
+                  <div style={{ width: 56, height: 56, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 20px", background: "rgba(232,150,42,0.1)", border: "1px solid rgba(232,150,42,0.28)" }}>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5 11-11" stroke="var(--accent)" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" /></svg>
                   </div>
                   <h3 style={{ fontFamily: "var(--font-heading)", fontSize: 26, fontWeight: 400, marginBottom: 10 }}>You&apos;re on the waitlist.</h3>
                   <p style={{ fontSize: 14, lineHeight: 1.75, color: "var(--text-muted)", maxWidth: 360, margin: "0 auto 28px", fontFamily: "var(--font-body)" }}>
                     We&apos;ll review your submission and reach out when a spot opens. You&apos;ll hear from us either way.
                   </p>
-                  <div style={{ borderRadius: 10, padding: "20px 24px", background: "rgba(200,169,110,0.06)", border: "1px solid rgba(200,169,110,0.2)", textAlign: "left" }}>
+                  <div style={{ borderRadius: 10, padding: "20px 24px", background: "rgba(232,150,42,0.06)", border: "1px solid rgba(232,150,42,0.2)", textAlign: "left" }}>
                     <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--accent)", marginBottom: 8, fontFamily: "var(--font-body)" }}>Can&apos;t wait?</div>
                     <p style={{ fontSize: 13, lineHeight: 1.7, color: "var(--text-muted)", marginBottom: 14, fontFamily: "var(--font-body)" }}>Book a paid Clarity Call directly and skip the queue. Same 30-minute session — available now.</p>
                     {/* TODO: Replace # with paid booking URL when ready */}
-                    <a href="#" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "9px 20px", borderRadius: 9999, fontSize: 13, fontWeight: 600, background: "var(--accent)", color: "#0e1f24", textDecoration: "none", fontFamily: "var(--font-body)" }}>
+                    <a href="#" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "9px 20px", borderRadius: 9999, fontSize: 13, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)" }}>
                       Book a Call Now — Skip the Line
                       <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1.5 6h9M6 1.5l4.5 4.5L6 10.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
                     </a>
@@ -160,7 +160,7 @@ export default function WaitlistForm() {
                           { value: "20m-50m", label: "$20M – $50M" },
                           { value: "over-50m", label: "Over $50M" },
                         ].map(opt => (
-                          <label key={opt.value} style={{ display: "flex", alignItems: "center", gap: 12, padding: "12px 16px", borderRadius: 6, cursor: "pointer", background: form.revenue === opt.value ? "rgba(200,169,110,0.07)" : "rgba(255,255,255,0.025)", border: `1px solid ${form.revenue === opt.value ? "rgba(200,169,110,0.38)" : "rgba(255,255,255,0.07)"}`, transition: "all 0.15s" }}>
+                          <label key={opt.value} style={{ display: "flex", alignItems: "center", gap: 12, padding: "12px 16px", borderRadius: 6, cursor: "pointer", background: form.revenue === opt.value ? "rgba(232,150,42,0.07)" : "rgba(255,255,255,0.025)", border: `1px solid ${form.revenue === opt.value ? "rgba(232,150,42,0.38)" : "rgba(255,255,255,0.07)"}`, transition: "all 0.15s" }}>
                             <input type="radio" name="revenue" value={opt.value} checked={form.revenue === opt.value} onChange={e => { set("revenue", e.target.value); clearErr("revenue"); }} style={{ accentColor: "var(--accent)", flexShrink: 0 }} />
                             <span style={{ fontSize: 14, color: form.revenue === opt.value ? "#fff" : "rgba(255,255,255,0.62)", fontFamily: "var(--font-body)" }}>{opt.label}</span>
                           </label>
@@ -201,7 +201,7 @@ export default function WaitlistForm() {
                               { value: "regardless-of-label", label: "My brain works this way regardless of label" },
                               { value: "prefer-not-to-say", label: "Prefer not to say" },
                             ].map(opt => (
-                              <label key={opt.value} style={{ display: "flex", alignItems: "center", gap: 12, padding: "11px 16px", borderRadius: 6, cursor: "pointer", background: form.diagnosis === opt.value ? "rgba(200,169,110,0.07)" : "rgba(255,255,255,0.025)", border: `1px solid ${form.diagnosis === opt.value ? "rgba(200,169,110,0.38)" : "rgba(255,255,255,0.07)"}`, transition: "all 0.15s" }}>
+                              <label key={opt.value} style={{ display: "flex", alignItems: "center", gap: 12, padding: "11px 16px", borderRadius: 6, cursor: "pointer", background: form.diagnosis === opt.value ? "rgba(232,150,42,0.07)" : "rgba(255,255,255,0.025)", border: `1px solid ${form.diagnosis === opt.value ? "rgba(232,150,42,0.38)" : "rgba(255,255,255,0.07)"}`, transition: "all 0.15s" }}>
                                 <input type="radio" name="diagnosis" value={opt.value} checked={form.diagnosis === opt.value} onChange={e => { set("diagnosis", e.target.value); clearErr("diagnosis"); }} style={{ accentColor: "var(--accent)", flexShrink: 0 }} />
                                 <span style={{ fontSize: 14, color: form.diagnosis === opt.value ? "#fff" : "rgba(255,255,255,0.62)", fontFamily: "var(--font-body)" }}>{opt.label}</span>
                               </label>
@@ -219,7 +219,7 @@ export default function WaitlistForm() {
                               { value: "survive-next-quarter", label: "Getting through the next quarter without burning out" },
                               { value: "other", label: "Something else" },
                             ].map(opt => (
-                              <label key={opt.value} style={{ display: "flex", alignItems: "center", gap: 12, padding: "11px 16px", borderRadius: 6, cursor: "pointer", background: form.clarity === opt.value ? "rgba(200,169,110,0.07)" : "rgba(255,255,255,0.025)", border: `1px solid ${form.clarity === opt.value ? "rgba(200,169,110,0.38)" : "rgba(255,255,255,0.07)"}`, transition: "all 0.15s" }}>
+                              <label key={opt.value} style={{ display: "flex", alignItems: "center", gap: 12, padding: "11px 16px", borderRadius: 6, cursor: "pointer", background: form.clarity === opt.value ? "rgba(232,150,42,0.07)" : "rgba(255,255,255,0.025)", border: `1px solid ${form.clarity === opt.value ? "rgba(232,150,42,0.38)" : "rgba(255,255,255,0.07)"}`, transition: "all 0.15s" }}>
                                 <input type="radio" name="clarity" value={opt.value} checked={form.clarity === opt.value} onChange={e => { set("clarity", e.target.value); clearErr("clarity"); }} style={{ accentColor: "var(--accent)", flexShrink: 0 }} />
                                 <span style={{ fontSize: 14, color: form.clarity === opt.value ? "#fff" : "rgba(255,255,255,0.62)", fontFamily: "var(--font-body)" }}>{opt.label}</span>
                               </label>
@@ -273,12 +273,12 @@ export default function WaitlistForm() {
                       </button>
                     ) : <span />}
                     {page < 4 ? (
-                      <button suppressHydrationWarning onClick={next} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#ffffff", color: "var(--bg)", border: "none", padding: "12px 24px", borderRadius: 9999, fontSize: 14, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-body)" }}>
+                      <button suppressHydrationWarning onClick={next} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "var(--accent)", color: "var(--bg)", border: "none", padding: "12px 24px", borderRadius: 9999, fontSize: 14, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-body)" }}>
                         Continue
                         <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
                       </button>
                     ) : (
-                      <button suppressHydrationWarning onClick={submit} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#ffffff", color: "var(--bg)", border: "none", padding: "12px 20px", borderRadius: 9999, fontSize: isMobile ? 13 : 14, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-body)" }}>
+                      <button suppressHydrationWarning onClick={submit} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "var(--accent)", color: "var(--bg)", border: "none", padding: "12px 20px", borderRadius: 9999, fontSize: isMobile ? 13 : 14, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-body)" }}>
                         Join the Clarity Call Waitlist
                         <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
                       </button>

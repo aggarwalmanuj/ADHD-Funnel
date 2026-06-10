@@ -1,7 +1,10 @@
 "use client";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import FadeIn from "./FadeIn";
 import { useIsMobile } from "../hooks/useIsMobile";
+
+const EASE = [0.22, 1, 0.36, 1] as const;
 
 const steps = [
   { num: "Step 01", title: "Join the Waitlist", body: "Four questions about your situation. Sixty seconds. Tell us what your week actually looks like and what clarity would mean for you right now." },
@@ -13,7 +16,7 @@ export default function HowItWorks() {
   const isMobile = useIsMobile();
 
   return (
-    <section id="how-it-works" style={{ borderTop: "1px solid var(--border)" }}>
+    <section id="how-it-works" style={{ borderTop: "1px solid var(--border)", background: "var(--bg-alt)" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: isMobile ? "64px 20px" : "96px 64px" }}>
         <FadeIn>
           <div style={{ marginBottom: isMobile ? 40 : 64 }}>
@@ -32,10 +35,19 @@ export default function HowItWorks() {
         <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 340px", gap: isMobile ? 24 : 56, alignItems: "start" }}>
           <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3,1fr)", gap: 1, background: "var(--border)", border: "1px solid var(--border)", borderRadius: 8, overflow: "hidden" }}>
             {steps.map((s, i) => (
-              <FadeIn key={i} delay={i * 0.1}>
+              <FadeIn key={i} delay={i * 0.18}>
                 <div style={{ padding: isMobile ? "24px 20px" : "32px 24px", background: "var(--bg-card)", height: "100%", boxSizing: "border-box" }}>
                   <div style={{ fontSize: 10, fontWeight: 600, letterSpacing: "0.16em", textTransform: "uppercase", display: "flex", alignItems: "center", gap: 8, marginBottom: 16, color: "var(--accent)", fontFamily: "var(--font-body)" }}>
-                    {s.num}<span style={{ flex: 1, height: 1, background: "rgba(200,169,110,0.2)" }} />
+                    <motion.span
+                      initial={{ y: -18, opacity: 0 }}
+                      whileInView={{ y: 0, opacity: 1 }}
+                      viewport={{ once: true, amount: 0.4 }}
+                      transition={{ duration: 0.8, delay: 0.25 + i * 0.18, ease: EASE }}
+                      style={{ display: "inline-block" }}
+                    >
+                      {s.num}
+                    </motion.span>
+                    <span style={{ flex: 1, height: 1, background: "rgba(232,150,42,0.2)", display: "inline-block" }} />
                   </div>
                   <h3 style={{ fontSize: 16, fontWeight: 600, color: "#fff", marginBottom: 10, lineHeight: 1.3, fontFamily: "var(--font-body)" }}>{s.title}</h3>
                   <p style={{ fontSize: 14, lineHeight: 1.7, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>{s.body}</p>

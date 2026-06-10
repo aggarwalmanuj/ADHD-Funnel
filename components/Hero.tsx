@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Magnetic from "./Magnetic";
 import { useIsMobile } from "../hooks/useIsMobile";
 
 export default function Hero() {
@@ -32,7 +33,7 @@ export default function Hero() {
           </div>
 
           {/* H1 */}
-          <h1 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(30px, 4.6vw, 64px)", fontWeight: 400, lineHeight: 1.06, marginBottom: 28, letterSpacing: "-0.005em", color: "#EAF0F4", fontVariationSettings: "'opsz' 144", textWrap: "balance" }}>
+          <h1 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(30px, 4.6vw, 64px)", fontWeight: 400, lineHeight: 1.06, marginBottom: 28, letterSpacing: "-0.005em", color: "#F2EDE6", fontVariationSettings: "'opsz' 144", textWrap: "balance" }}>
             Your ADHD brain knows exactly what it&apos;s capable of.{" "}
             <em style={{ fontStyle: "italic", fontWeight: 300, color: "var(--accent)", fontVariationSettings: "'opsz' 144, 'SOFT' 7.6, 'WONK' 1" }}>Something keeps stopping it</em>{" "}
             right before it lands.
@@ -40,7 +41,7 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p style={{ fontFamily: "var(--font-body)", fontSize: isMobile ? 15 : 16, lineHeight: 1.8, marginBottom: 28, color: "var(--text-muted)", maxWidth: 560 }}>
-            According to research from the University of California San Francisco — <strong style={{ color: "rgba(255,255,255,0.8)", fontWeight: 500 }}>29% of entrepreneurs self-report ADHD.</strong> That is six times the general adult population. You did not end up here by accident. Your brain is built for this environment. The problem is that every system you have been handed was built for a different one.
+            According to research from the University of California San Francisco — <strong style={{ color: "var(--accent)", fontWeight: 500 }}>29% of entrepreneurs self-report ADHD.</strong> That is six times the general adult population. You did not end up here by accident. Your brain is built for this environment. The problem is that every system you have been handed was built for a different one.
           </p>
 
           {/* Bullets */}
@@ -51,23 +52,35 @@ export default function Hero() {
               "Your talent is real. It is just not landing the way you know it should.",
             ].map((item, i) => (
               <motion.li key={i} initial={{ opacity: 0, x: -16 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.4 + i * 0.1, ease: [0.22, 1, 0.36, 1] }}
-                style={{ display: "flex", alignItems: "flex-start", gap: 12, fontSize: isMobile ? 14 : 15, lineHeight: 1.65, color: "rgba(255,255,255,0.72)", fontFamily: "var(--font-body)" }}
+                whileHover="hover"
+                style={{ display: "flex", alignItems: "flex-start", gap: 12, fontSize: isMobile ? 14 : 15, lineHeight: 1.65, color: "rgba(255,255,255,0.72)", fontFamily: "var(--font-body)", cursor: "default" }}
               >
-                <span style={{ color: "var(--accent)", marginTop: 3, flexShrink: 0 }}>→</span>
-                {item}
+                <motion.span
+                  variants={{ hover: { x: 8, color: "var(--accent)" } }}
+                  initial={{ x: 0 }}
+                  transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+                  style={{ color: "var(--accent)", marginTop: 3, flexShrink: 0, display: "inline-block" }}
+                >→</motion.span>
+                <motion.span
+                  variants={{ hover: { color: "rgba(255,255,255,0.95)" } }}
+                  initial={{ color: "rgba(255,255,255,0.72)" }}
+                  transition={{ duration: 0.5 }}
+                >{item}</motion.span>
               </motion.li>
             ))}
           </ul>
 
           {/* CTAs */}
           <div style={{ display: "flex", flexDirection: isMobile ? "column" : "row", alignItems: isMobile ? "stretch" : "center", gap: isMobile ? 12 : 20, flexWrap: "wrap" }}>
-            <Link href="#waitlist" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "15px 36px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "#ffffff", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "opacity 0.2s, transform 0.2s", whiteSpace: "nowrap" }}
-              onMouseEnter={e => { e.currentTarget.style.opacity = "0.85"; e.currentTarget.style.transform = "translateY(-1px)"; }}
-              onMouseLeave={e => { e.currentTarget.style.opacity = "1"; e.currentTarget.style.transform = "translateY(0)"; }}
-            >
-              Join the Clarity Call Waitlist
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
-            </Link>
+            <Magnetic>
+              <Link href="#waitlist" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "15px 36px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "opacity 0.2s", whiteSpace: "nowrap" }}
+                onMouseEnter={e => (e.currentTarget.style.opacity = "0.9")}
+                onMouseLeave={e => (e.currentTarget.style.opacity = "1")}
+              >
+                Join the Clarity Call Waitlist
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
+              </Link>
+            </Magnetic>
             <span style={{ fontSize: 13, color: "var(--text-dim)", fontFamily: "var(--font-body)", textAlign: isMobile ? "center" : "left" }}>
               We&apos;re onboarding in waves. 60 seconds to tell us about your situation.
             </span>

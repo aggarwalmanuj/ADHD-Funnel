@@ -1,6 +1,9 @@
 "use client";
+import { motion } from "framer-motion";
 import FadeIn from "./FadeIn";
 import { useIsMobile } from "../hooks/useIsMobile";
+
+const EASE = [0.22, 1, 0.36, 1] as const;
 
 const rows = [
   {
@@ -41,21 +44,38 @@ export default function Differentiation() {
 
         <div style={{ display: "flex", flexDirection: "column" }}>
           {rows.map((r, i) => (
-            <FadeIn key={i} delay={i * 0.1}>
-              <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "220px 1fr", gap: isMobile ? 8 : 48, padding: isMobile ? "28px 0" : "36px 0", borderTop: "1px solid var(--border)", alignItems: "start" }}>
-                <span style={{ fontSize: 10, fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", color: "var(--accent)", paddingTop: isMobile ? 0 : 4, fontFamily: "var(--font-body)" }}>{r.tag}</span>
-                <div>
+            <FadeIn key={i} delay={i * 0.12}>
+              <motion.div
+                whileHover="hover"
+                initial="rest"
+                animate="rest"
+                style={{ position: "relative", display: "grid", gridTemplateColumns: isMobile ? "1fr" : "220px 1fr", gap: isMobile ? 8 : 48, padding: isMobile ? "28px 8px" : "36px 16px", borderTop: "1px solid var(--border)", alignItems: "start", overflow: "hidden", cursor: "default" }}
+              >
+                <motion.div
+                  aria-hidden
+                  variants={{ rest: { opacity: 0 }, hover: { opacity: 1 } }}
+                  transition={{ duration: 0.5, ease: EASE }}
+                  style={{ position: "absolute", inset: 0, pointerEvents: "none", background: "rgba(255,255,255,0.02)" }}
+                />
+                <motion.span
+                  variants={{ rest: { x: 0, color: "var(--accent)" }, hover: { x: 6, color: "var(--accent)" } }}
+                  transition={{ duration: 0.55, ease: EASE }}
+                  style={{ position: "relative", fontSize: 10, fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase", paddingTop: isMobile ? 0 : 4, fontFamily: "var(--font-body)", display: "inline-block" }}
+                >
+                  {r.tag}
+                </motion.span>
+                <div style={{ position: "relative" }}>
                   <h3 style={{ fontSize: isMobile ? 17 : 19, fontWeight: 600, color: "#fff", marginBottom: 8, fontFamily: "var(--font-body)" }}>{r.title}</h3>
                   <p style={{ fontSize: 15, lineHeight: 1.75, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>{r.body}</p>
                 </div>
-              </div>
+              </motion.div>
             </FadeIn>
           ))}
         </div>
 
         {/* Mensa note */}
         <FadeIn delay={0.3}>
-          <div style={{ marginTop: 40, padding: isMobile ? "20px" : "24px 32px", borderRadius: 10, background: "rgba(200,169,110,0.05)", border: "1px solid rgba(200,169,110,0.15)" }}>
+          <div style={{ marginTop: 40, padding: isMobile ? "20px" : "24px 32px", borderRadius: 10, background: "rgba(232,150,42,0.05)", border: "1px solid rgba(232,150,42,0.15)" }}>
             <p style={{ fontSize: 14, lineHeight: 1.75, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>
               This methodology is published in the <strong style={{ color: "rgba(255,255,255,0.7)", fontWeight: 500 }}>Mensa Research Journal</strong> — peer-reviewed, documented, tested across 14 transformations in multiple countries. One trained therapist said it reached something in three days that her own decades of practice had never touched. 4 patents in AI/ML. Microsoft, IBM, Pearson Education background.
             </p>

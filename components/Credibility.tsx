@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import FadeIn from "./FadeIn";
+import CountUp from "./CountUp";
 import { useIsMobile } from "../hooks/useIsMobile";
 
 const logos = [
@@ -19,16 +20,16 @@ const stats = [
 ];
 
 const adhdStats = [
-  { num: "29%", body: "of entrepreneurs self-report ADHD — 6× the general adult population", source: "Freeman MD, UCSF" },
-  { num: "44%", body: "of entrepreneurs under 45 report ADHD symptoms", source: "BDC, 2025" },
-  { num: "47", body: "studies confirming ADHD traits that help you start work against you after you start", source: "Sage Journals, 2026" },
+  { value: 29, suffix: "%", body: "of entrepreneurs self-report ADHD — 6× the general adult population", source: "Freeman MD, UCSF" },
+  { value: 44, suffix: "%", body: "of entrepreneurs under 45 report ADHD symptoms", source: "BDC, 2025" },
+  { value: 47, suffix: "", body: "studies confirming ADHD traits that help you start work against you after you start", source: "Sage Journals, 2026" },
 ];
 
 export default function Credibility() {
   const isMobile = useIsMobile();
 
   return (
-    <section style={{ borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)", background: "var(--bg-2)" }}>
+    <section style={{ borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)", background: "var(--bg-alt)" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: isMobile ? "64px 20px" : "96px 64px" }}>
 
         {/* Top row */}
@@ -79,7 +80,7 @@ export default function Credibility() {
           <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3,1fr)", gap: 1, background: "var(--border)", borderRadius: 10, overflow: "hidden" }}>
             {adhdStats.map((s, i) => (
               <div key={i} style={{ background: "var(--bg-card)", padding: isMobile ? "24px 20px" : "28px 32px" }}>
-                <div style={{ fontFamily: "var(--font-heading)", fontSize: isMobile ? "clamp(32px,8vw,48px)" : "clamp(36px,4vw,56px)", fontWeight: 400, color: "var(--accent)", lineHeight: 1, marginBottom: 10 }}>{s.num}</div>
+                <div style={{ fontFamily: "var(--font-heading)", fontSize: isMobile ? "clamp(32px,8vw,48px)" : "clamp(36px,4vw,56px)", fontWeight: 400, color: "var(--accent)", lineHeight: 1, marginBottom: 10 }}><CountUp to={s.value} suffix={s.suffix} /></div>
                 <p style={{ fontSize: 14, lineHeight: 1.65, color: "rgba(255,255,255,0.75)", fontFamily: "var(--font-body)", marginBottom: 8 }}>{s.body}</p>
                 <span style={{ fontSize: 10, fontWeight: 600, letterSpacing: "0.16em", textTransform: "uppercase", color: "var(--text-dim)", fontFamily: "var(--font-body)" }}>— {s.source}</span>
               </div>

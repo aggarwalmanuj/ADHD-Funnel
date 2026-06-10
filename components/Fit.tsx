@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 import FadeIn from "./FadeIn";
 import { useIsMobile } from "../hooks/useIsMobile";
 
@@ -15,11 +16,50 @@ const no = [
   "You're not ready to be honest about what's actually running",
 ];
 
-function Check() {
-  return <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0, marginTop: 2 }}><path d="M2 8l4 4 8-8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const EASE = [0.22, 1, 0.36, 1] as const;
+
+function Check({ delay = 0 }: { delay?: number }) {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0, marginTop: 2 }}>
+      <motion.path
+        d="M2 8l4 4 8-8"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        initial={{ pathLength: 0 }}
+        whileInView={{ pathLength: 1 }}
+        viewport={{ once: true, amount: 0.6 }}
+        transition={{ duration: 0.6, delay, ease: EASE }}
+      />
+    </svg>
+  );
 }
-function Cross() {
-  return <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0, marginTop: 2 }}><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>;
+function Cross({ delay = 0 }: { delay?: number }) {
+  return (
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0, marginTop: 2 }}>
+      <motion.path
+        d="M3 3l10 10"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        initial={{ pathLength: 0 }}
+        whileInView={{ pathLength: 1 }}
+        viewport={{ once: true, amount: 0.6 }}
+        transition={{ duration: 0.45, delay, ease: EASE }}
+      />
+      <motion.path
+        d="M13 3L3 13"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        initial={{ pathLength: 0 }}
+        whileInView={{ pathLength: 1 }}
+        viewport={{ once: true, amount: 0.6 }}
+        transition={{ duration: 0.45, delay: delay + 0.18, ease: EASE }}
+      />
+    </svg>
+  );
 }
 
 export default function Fit() {
@@ -41,26 +81,26 @@ export default function Fit() {
           </div>
         </FadeIn>
 
-        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: isMobile ? 16 : 20 }}>
+        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: isMobile ? 16 : 32 }}>
           <FadeIn delay={0.1}>
-            <div style={{ borderRadius: 10, padding: isMobile ? "28px 24px" : "36px", boxSizing: "border-box", background: "rgba(78,155,106,0.08)", border: "1px solid rgba(78,155,106,0.22)", height: "100%" }}>
-              <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: "#4e9b6a", marginBottom: 20, fontFamily: "var(--font-body)" }}>This is for you if</div>
-              <ul style={{ display: "flex", flexDirection: "column", gap: 14, padding: 0, listStyle: "none" }}>
+            <div style={{ borderRadius: 6, padding: isMobile ? "32px 28px" : "44px 40px", boxSizing: "border-box", background: "var(--bg-card)", border: "1px solid var(--border)", borderLeft: "3px solid var(--accent)", height: "100%" }}>
+              <h4 style={{ fontFamily: "var(--font-heading)", fontSize: isMobile ? 24 : 28, fontWeight: 500, color: "var(--accent)", marginBottom: 24 }}>This is for you if</h4>
+              <ul style={{ display: "flex", flexDirection: "column", padding: 0, listStyle: "none", margin: 0 }}>
                 {yes.map((item, i) => (
-                  <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: 12, fontSize: 15, lineHeight: 1.55, color: "rgba(255,255,255,0.75)", fontFamily: "var(--font-body)" }}>
-                    <span style={{ color: "#4e9b6a" }}><Check /></span>{item}
+                  <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: 16, fontSize: 15, lineHeight: 1.6, color: "#F2EDE6", fontFamily: "var(--font-body)", padding: "14px 0", borderBottom: i === yes.length - 1 ? "none" : "1px solid var(--border)" }}>
+                    <span style={{ color: "var(--accent)" }}><Check delay={i * 0.1} /></span>{item}
                   </li>
                 ))}
               </ul>
             </div>
           </FadeIn>
           <FadeIn delay={0.2}>
-            <div style={{ borderRadius: 10, padding: isMobile ? "28px 24px" : "36px", boxSizing: "border-box", background: "rgba(176,112,112,0.08)", border: "1px solid rgba(176,112,112,0.22)", height: "100%" }}>
-              <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: "0.14em", textTransform: "uppercase", color: "#b07070", marginBottom: 20, fontFamily: "var(--font-body)" }}>This is not for you if</div>
-              <ul style={{ display: "flex", flexDirection: "column", gap: 14, padding: 0, listStyle: "none" }}>
+            <div style={{ borderRadius: 6, padding: isMobile ? "32px 28px" : "44px 40px", boxSizing: "border-box", border: "1px solid var(--border)", height: "100%", opacity: 0.7 }}>
+              <h4 style={{ fontFamily: "var(--font-heading)", fontSize: isMobile ? 24 : 28, fontWeight: 500, color: "#F2EDE6", marginBottom: 24 }}>This is not for you if</h4>
+              <ul style={{ display: "flex", flexDirection: "column", padding: 0, listStyle: "none", margin: 0 }}>
                 {no.map((item, i) => (
-                  <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: 12, fontSize: 15, lineHeight: 1.55, color: "rgba(255,255,255,0.75)", fontFamily: "var(--font-body)" }}>
-                    <span style={{ color: "#b07070" }}><Cross /></span>{item}
+                  <li key={i} style={{ display: "flex", alignItems: "flex-start", gap: 16, fontSize: 15, lineHeight: 1.6, color: "var(--text-muted)", fontFamily: "var(--font-body)", padding: "14px 0", borderBottom: i === no.length - 1 ? "none" : "1px solid var(--border)" }}>
+                    <span style={{ color: "var(--text-dim)" }}><Cross delay={i * 0.1} /></span>{item}
                   </li>
                 ))}
               </ul>

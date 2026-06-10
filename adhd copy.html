@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ADHD. 100 ideas. Zero shipped. — AI Merge for ADHD-Style Brains</title>
+<meta name="description" content="29% of entrepreneurs self-report ADHD — 6× the general population. A system built around how your brain actually works. Private AI vault. Human protocol. Join the Clarity Call Waitlist." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --bg: #0A0A0F; --surface: #0F1624; --surface-2: #141B2E;
+    --text: #F2EDE6; --text-muted: #8A8A9A; --text-dim: #5A5F6E;
+    --border: #1E2235; --amber: #E8962A; --amber-soft: #C57E20;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text);
+    font-size: 17px; line-height: 1.75; -webkit-font-smoothing: antialiased; overflow-x: hidden;
+  }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 32px; }
+  .container-narrow { max-width: 880px; margin: 0 auto; padding: 0 32px; }
+
+  h1, h2, h3 { font-family: 'Cormorant Garamond', serif; font-weight: 400; letter-spacing: -0.01em; }
+  h1 { font-size: clamp(40px, 6vw, 76px); line-height: 1.05; font-weight: 300; }
+  h2 { font-size: clamp(32px, 4.5vw, 52px); line-height: 1.1; font-weight: 400; }
+  h3 { font-size: clamp(24px, 3vw, 34px); line-height: 1.2; font-weight: 500; }
+
+  .label {
+    font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 600;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted);
+  }
+  .amber { color: var(--amber); }
+
+  /* NAV */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(10, 10, 15, 0.85); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border); padding: 16px 0;
+  }
+  nav .container { display: flex; align-items: center; justify-content: space-between; }
+  .logo { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-weight: 500; letter-spacing: -0.02em; }
+  .logo .amber-dot { color: var(--amber); }
+  .nav-cta {
+    background: var(--amber); color: var(--bg); padding: 10px 20px; border: none;
+    border-radius: 2px; font-family: 'DM Sans', sans-serif; font-size: 14px;
+    font-weight: 600; letter-spacing: 0.02em; cursor: pointer; transition: opacity 0.15s ease;
+  }
+  .nav-cta:hover { opacity: 0.9; }
+
+  /* HERO */
+  .hero { padding: 120px 0 100px; position: relative; overflow: hidden; }
+  .hero::before {
+    content: ''; position: absolute; top: -200px; right: -200px;
+    width: 600px; height: 600px;
+    background: radial-gradient(circle, rgba(232, 150, 42, 0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-content { max-width: 900px; }
+  .hero .eyebrow {
+    display: inline-block; margin-bottom: 32px; padding: 8px 16px;
+    border: 1px solid var(--border); border-radius: 100px;
+    font-size: 12px; font-weight: 500; letter-spacing: 0.08em;
+    color: var(--text-muted); text-transform: uppercase;
+  }
+  .hero h1 { margin-bottom: 40px; }
+  .hero h1 em { font-style: italic; color: var(--amber); font-weight: 400; }
+  .hero-subtitle {
+    font-family: 'DM Sans', sans-serif; font-size: 17px; font-weight: 600;
+    color: var(--amber); letter-spacing: 0.06em; text-transform: uppercase;
+    margin-bottom: 32px; margin-top: -16px;
+  }
+  .hero-sub {
+    font-size: 21px; line-height: 1.6; color: var(--text); opacity: 0.85;
+    max-width: 760px; margin-bottom: 48px;
+  }
+  .hero-sub strong { color: var(--amber); font-weight: 500; }
+  .if-this-is-you { margin: 48px 0; padding-left: 0; list-style: none; }
+  .if-this-is-you li {
+    display: flex; align-items: flex-start; gap: 16px;
+    padding: 14px 0; border-bottom: 1px solid var(--border); font-size: 17px;
+  }
+  .if-this-is-you li:last-child { border-bottom: none; }
+  .if-this-is-you li::before {
+    content: '→'; color: var(--amber); font-weight: 600;
+    font-size: 20px; flex-shrink: 0; margin-top: -2px;
+  }
+  .hero-cta-wrap { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; margin-top: 40px; }
+  .cta-primary {
+    background: var(--amber); color: var(--bg); padding: 18px 36px; border: none;
+    border-radius: 2px; font-family: 'DM Sans', sans-serif; font-size: 15px;
+    font-weight: 600; letter-spacing: 0.04em; cursor: pointer; transition: opacity 0.15s ease;
+  }
+  .cta-primary:hover { opacity: 0.9; }
+  .cta-micro { color: var(--text-muted); font-size: 14px; font-style: italic; }
+
+  /* CREDIBILITY */
+  .credibility {
+    background: var(--surface); padding: 60px 0;
+    border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+  }
+  .credibility-label { text-align: center; margin-bottom: 32px; color: var(--text-muted); }
+  .logos { display: flex; justify-content: center; align-items: center; gap: 56px; flex-wrap: wrap; margin-bottom: 32px; }
+  .logo-mark {
+    font-family: 'DM Sans', sans-serif; font-size: 18px; font-weight: 600;
+    color: var(--text-muted); letter-spacing: 0.02em; opacity: 0.7; transition: opacity 0.2s ease;
+  }
+  .logo-mark:hover { opacity: 1; }
+  .credentials {
+    text-align: center; font-size: 13px; color: var(--text-dim); letter-spacing: 0.05em;
+  }
+  .credentials .sep { color: var(--amber); margin: 0 12px; opacity: 0.6; }
+  .stat-bar {
+    display: flex; justify-content: center; gap: 64px; flex-wrap: wrap;
+    margin-top: 32px; padding-top: 32px; border-top: 1px solid var(--border);
+  }
+  .stat-item { text-align: center; }
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif; font-size: 42px; font-weight: 300;
+    color: var(--amber); line-height: 1; display: block; margin-bottom: 6px;
+  }
+  .stat-label { font-size: 12px; color: var(--text-muted); letter-spacing: 0.06em; max-width: 180px; }
+  .stat-source { font-size: 11px; color: var(--text-dim); margin-top: 4px; font-style: italic; }
+
+  /* SECTIONS */
+  section.block { padding: 120px 0; }
+  section.block.alt { background: var(--surface); }
+  .section-label { display: block; margin-bottom: 24px; color: var(--amber); }
+  .section-title { margin-bottom: 56px; max-width: 760px; }
+  .section-title em { font-style: italic; color: var(--amber); }
+
+  /* QUOTE CARDS */
+  .quote-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; margin-top: 56px; }
+  .quote-card {
+    background: var(--surface-2); border: 1px solid var(--border);
+    padding: 40px 32px; border-radius: 4px;
+  }
+  .quote-mark {
+    font-family: 'Cormorant Garamond', serif; font-size: 80px;
+    color: var(--amber); line-height: 1; margin-bottom: 16px; opacity: 0.4;
+  }
+  .quote-text {
+    font-family: 'Cormorant Garamond', serif; font-size: 22px;
+    line-height: 1.4; font-weight: 400; font-style: italic; margin-bottom: 20px;
+  }
+  .quote-sub { font-size: 13px; color: var(--text-muted); font-style: italic; line-height: 1.5; }
+
+  /* REAL COST */
+  .cost-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; margin-top: 56px; }
+  .cost-copy p { color: var(--text); opacity: 0.85; margin-bottom: 24px; font-size: 17px; line-height: 1.75; }
+  .cost-copy p:last-child { margin-bottom: 0; }
+  .pattern-box {
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-left: 3px solid var(--amber); padding: 40px 36px; border-radius: 0 4px 4px 0;
+  }
+  .pattern-box blockquote {
+    font-family: 'Cormorant Garamond', serif; font-size: 26px;
+    font-style: italic; line-height: 1.4; color: var(--text); margin-bottom: 24px;
+  }
+  .pattern-box p { font-size: 15px; color: var(--text-muted); line-height: 1.7; }
+
+  /* FIVE THINGS */
+  .five-things { list-style: none; padding: 0; margin-top: 56px; }
+  .five-things li {
+    display: grid; grid-template-columns: 80px 1fr;
+    gap: 0 24px; padding: 40px 0; border-bottom: 1px solid var(--border); align-items: start;
+  }
+  .five-things li:last-child { border-bottom: none; }
+  .thing-num {
+    font-family: 'Cormorant Garamond', serif; font-size: 64px;
+    color: var(--amber); line-height: 1; font-weight: 300; opacity: 0.9; padding-top: 4px;
+  }
+  .thing-body h4 {
+    font-family: 'Cormorant Garamond', serif; font-size: 26px;
+    font-weight: 500; color: var(--text); margin-bottom: 12px; line-height: 1.2;
+  }
+  .thing-body p { color: var(--text); opacity: 0.8; font-size: 16px; }
+
+  /* STEPS */
+  .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 48px; margin-top: 56px; }
+  .step { position: relative; padding-top: 40px; }
+  .step-num {
+    font-family: 'Cormorant Garamond', serif; font-size: 96px;
+    color: var(--amber); line-height: 1; font-weight: 300; margin-bottom: 8px; opacity: 0.9;
+  }
+  .step h3 { margin-bottom: 16px; font-size: 24px; }
+  .step p { color: var(--text); opacity: 0.8; }
+
+  /* PROOF */
+  .proof-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 56px; }
+  .proof-card { background: var(--surface-2); border: 1px solid var(--border); padding: 48px 40px; border-radius: 4px; }
+  .proof-label {
+    display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--amber); margin-bottom: 8px;
+  }
+  .proof-result {
+    font-family: 'Cormorant Garamond', serif; font-size: 36px; font-weight: 300;
+    color: var(--text); line-height: 1.1; margin-bottom: 24px;
+  }
+  .proof-quote {
+    font-family: 'Cormorant Garamond', serif; font-size: 22px;
+    font-style: italic; line-height: 1.4; margin-bottom: 20px;
+  }
+  .proof-detail { font-size: 14px; color: var(--text-muted); line-height: 1.6; margin-bottom: 24px; }
+  .proof-attribution {
+    border-top: 1px solid var(--border); padding-top: 20px;
+    color: var(--text-muted); font-size: 14px; letter-spacing: 0.04em;
+  }
+  .proof-attribution strong { color: var(--text); font-weight: 600; }
+
+  /* CONTRASTS */
+  .contrasts {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0; margin-top: 56px; border-top: 1px solid var(--border);
+  }
+  .contrast { padding: 40px 32px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .contrast:last-child { border-right: none; }
+  .contrast h4 {
+    font-family: 'Cormorant Garamond', serif; font-size: 26px;
+    font-weight: 500; margin-bottom: 16px; color: var(--amber);
+  }
+  .contrast p { color: var(--text); opacity: 0.85; }
+  .mensa-note {
+    margin-top: 64px; padding: 36px 40px;
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-left: 3px solid var(--amber); border-radius: 0 4px 4px 0;
+  }
+  .mensa-note p { font-size: 15px; color: var(--text-muted); line-height: 1.7; }
+  .mensa-note strong { color: var(--text); }
+
+  /* FOR/NOT FOR */
+  .for-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-top: 56px; }
+  .for-card { padding: 40px; border: 1px solid var(--border); border-radius: 4px; }
+  .for-card.yes { background: var(--surface-2); border-left: 3px solid var(--amber); }
+  .for-card.no { opacity: 0.7; }
+  .for-card h4 { font-family: 'Cormorant Garamond', serif; font-size: 28px; margin-bottom: 24px; font-weight: 500; }
+  .for-card.yes h4 { color: var(--amber); }
+  .for-card ul { list-style: none; padding: 0; }
+  .for-card li {
+    padding: 12px 0; border-bottom: 1px solid var(--border);
+    padding-left: 28px; position: relative; font-size: 15px;
+  }
+  .for-card li:last-child { border-bottom: none; }
+  .for-card.yes li::before { content: '✓'; color: var(--amber); font-weight: 700; position: absolute; left: 0; }
+  .for-card.no li::before { content: '×'; color: var(--text-dim); font-weight: 700; position: absolute; left: 0; font-size: 18px; }
+
+  /* FINAL CTA */
+  .final-cta { padding: 140px 0; text-align: center; position: relative; }
+  .final-cta::before {
+    content: ''; position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%); width: 800px; height: 400px;
+    background: radial-gradient(ellipse, rgba(232, 150, 42, 0.06) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .final-cta h2 { max-width: 760px; margin: 0 auto 32px; position: relative; z-index: 1; }
+  .final-cta-sub { color: var(--text-muted); max-width: 580px; margin: 0 auto 48px; font-size: 18px; position: relative; z-index: 1; }
+  .final-cta .cta-primary { position: relative; z-index: 1; }
+
+  footer { border-top: 1px solid var(--border); padding: 40px 0; text-align: center; color: var(--text-dim); font-size: 13px; }
+
+  /* MODAL */
+  .modal-overlay {
+    display: none; position: fixed; inset: 0;
+    background: rgba(10, 10, 15, 0.92); backdrop-filter: blur(8px);
+    z-index: 1000; overflow-y: auto; padding: 60px 20px;
+  }
+  .modal-overlay.active { display: block; animation: fadeIn 0.3s ease; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .modal {
+    background: var(--surface); border: 1px solid var(--border);
+    max-width: 640px; margin: 0 auto; border-radius: 4px;
+    padding: 56px 56px 48px; position: relative;
+  }
+  .modal-close {
+    position: absolute; top: 20px; right: 20px; background: none; border: none;
+    color: var(--text-muted); font-size: 24px; cursor: pointer; padding: 8px; line-height: 1;
+  }
+  .modal-close:hover { color: var(--text); }
+  .modal-header { margin-bottom: 32px; }
+  .modal-header .label { display: block; margin-bottom: 8px; color: var(--amber); }
+  .modal-header p { color: var(--text-muted); font-size: 14px; }
+  .progress-bar { height: 3px; background: var(--border); margin-bottom: 40px; border-radius: 2px; overflow: hidden; }
+  .progress-fill { height: 100%; background: var(--amber); width: 20%; transition: width 0.3s ease; }
+  .step-counter { color: var(--text-muted); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; }
+  .modal h3 { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 500; line-height: 1.2; margin-bottom: 12px; }
+  .modal .question-hint { color: var(--text-muted); font-size: 14px; margin-bottom: 28px; font-style: italic; }
+  .form-step { display: none; }
+  .form-step.active { display: block; animation: slideUp 0.3s ease; }
+  @keyframes slideUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+  .option-group { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+  .option {
+    display: flex; align-items: center; padding: 14px 20px;
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: 3px; cursor: pointer; transition: all 0.15s ease; font-size: 15px;
+  }
+  .option:hover { border-color: var(--amber); background: rgba(232, 150, 42, 0.05); }
+  .option input { margin-right: 14px; accent-color: var(--amber); }
+  .option.selected { border-color: var(--amber); background: rgba(232, 150, 42, 0.08); }
+  .text-input, textarea {
+    width: 100%; padding: 14px 18px; background: var(--surface-2);
+    border: 1px solid var(--border); border-radius: 3px; color: var(--text);
+    font-family: 'DM Sans', sans-serif; font-size: 15px;
+    margin-bottom: 32px; transition: border-color 0.15s ease;
+  }
+  .text-input:focus, textarea:focus { outline: none; border-color: var(--amber); }
+  textarea { min-height: 160px; resize: vertical; line-height: 1.6; }
+  .contact-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+  .contact-fields .text-input { margin-bottom: 0; }
+  .contact-fields.full { grid-template-columns: 1fr; }
+  .modal-actions { display: flex; justify-content: space-between; gap: 16px; margin-top: 24px; }
+  .btn-back, .btn-next {
+    padding: 14px 28px; font-family: 'DM Sans', sans-serif; font-size: 14px;
+    font-weight: 600; letter-spacing: 0.04em; border-radius: 2px; cursor: pointer;
+    transition: all 0.15s ease; border: none;
+  }
+  .btn-back { background: transparent; color: var(--text-muted); border: 1px solid var(--border); }
+  .btn-back:hover { color: var(--text); border-color: var(--text-muted); }
+  .btn-next { background: var(--amber); color: var(--bg); margin-left: auto; }
+  .btn-next:hover { opacity: 0.9; }
+  .form-success { display: none; text-align: center; padding: 40px 0; }
+  .form-success.active { display: block; }
+  .success-mark { font-size: 48px; color: var(--amber); margin-bottom: 24px; }
+  .form-success h3 { margin-bottom: 16px; }
+  .form-success p { color: var(--text-muted); margin-bottom: 12px; }
+  .skip-line-box {
+    margin-top: 32px; padding: 28px 32px; background: var(--surface-2);
+    border: 1px solid var(--border); border-radius: 4px; text-align: left;
+  }
+  .skip-line-tag {
+    display: inline-block; font-size: 11px; font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--amber); margin-bottom: 10px;
+  }
+  .skip-line-box p { color: var(--text); font-size: 15px; margin-bottom: 20px; text-align: left; }
+  .btn-skip-line {
+    width: 100%; background: transparent; border: 1px solid var(--amber);
+    color: var(--amber); padding: 14px 24px; font-family: 'DM Sans', sans-serif;
+    font-size: 14px; font-weight: 600; cursor: pointer; border-radius: 2px;
+    transition: all 0.15s ease; letter-spacing: 0.04em;
+  }
+  .btn-skip-line:hover { background: var(--amber); color: var(--bg); }
+
+  /* MOBILE */
+  @media (max-width: 768px) {
+    .container, .container-narrow { padding: 0 24px; }
+    .hero { padding: 80px 0 60px; } .hero-sub { font-size: 18px; }
+    section.block { padding: 80px 0; }
+    .contrasts { grid-template-columns: 1fr; } .contrast { border-right: none; }
+    .proof-grid, .for-grid, .contact-fields { grid-template-columns: 1fr; }
+    .cost-layout { grid-template-columns: 1fr; gap: 40px; }
+    .five-things li { grid-template-columns: 60px 1fr; }
+    .thing-num { font-size: 48px; }
+    .modal { padding: 40px 28px 32px; }
+    .quote-text { font-size: 19px; }
+    .step-num { font-size: 72px; }
+    .final-cta { padding: 80px 0; }
+    .stat-bar { gap: 40px; }
+  }
+
+  .reveal { opacity: 0; transform: translateY(20px); animation: revealUp 0.6s ease forwards; }
+  @keyframes revealUp { to { opacity: 1; transform: translateY(0); } }
+  .reveal-1 { animation-delay: 0.1s; } .reveal-2 { animation-delay: 0.25s; }
+  .reveal-3 { animation-delay: 0.4s; } .reveal-4 { animation-delay: 0.55s; }
+  .reveal-5 { animation-delay: 0.7s; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="container">
+    <div class="logo">AI Merge<span class="amber-dot">.</span></div>
+    <button class="nav-cta" onclick="openModal()">Join the Clarity Call Waitlist</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <span class="eyebrow reveal reveal-1">For executives, founders, and operators with ADHD-style brains</span>
+      <h1 class="reveal reveal-2">Your ADHD brain knows exactly what it's capable of. Something keeps stopping it <em>right before it lands</em>.</h1>
+      <p class="hero-subtitle reveal reveal-3">Find relief from ADHD in four weeks.</p>
+      <p class="hero-sub reveal reveal-4">
+        According to research from the University of California San Francisco — <strong>29% of entrepreneurs self-report ADHD</strong>. That is six times the general adult population. You did not end up here by accident. Your brain is built for this environment. The problem is that every system you have been handed was built for a different one.
+      </p>
+      <ul class="if-this-is-you reveal reveal-4">
+        <li>You can see the whole picture in sixty seconds. You cannot finish the email you started four times this week.</li>
+        <li>You've tried every system. The time-blocking. The habit stacking. You outgrew each one in three weeks. Every time.</li>
+        <li>Your talent is real. It is just not landing the way you know it should.</li>
+      </ul>
+      <div class="hero-cta-wrap reveal reveal-5">
+        <button class="cta-primary" onclick="openModal()">Join the Clarity Call Waitlist</button>
+        <span class="cta-micro">We're onboarding in waves. 60 seconds to tell us about your situation.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CREDIBILITY -->
+<section class="credibility">
+  <div class="container">
+    <p class="credibility-label label">30 years · six continents · peer-reviewed methodology</p>
+    <div class="logos">
+      <span class="logo-mark">MICROSOFT</span>
+      <span class="logo-mark">IBM</span>
+      <span class="logo-mark">T·MOBILE</span>
+      <span class="logo-mark">PEARSON</span>
+      <span class="logo-mark">FORTUNE 10</span>
+    </div>
+    <p class="credentials">
+      4 US PATENTS<span class="sep">·</span>MENSA RESEARCH JOURNAL — PEER REVIEWED<span class="sep">·</span>30 YEARS<span class="sep">·</span>6 CONTINENTS
+    </p>
+    <div class="stat-bar">
+      <div class="stat-item">
+        <span class="stat-num">29%</span>
+        <p class="stat-label">of entrepreneurs self-report ADHD — 6× the general adult population</p>
+        <p class="stat-source">Freeman MD, UCSF</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">44%</span>
+        <p class="stat-label">of entrepreneurs under 45 report ADHD symptoms</p>
+        <p class="stat-source">BDC, 2025</p>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">47</span>
+        <p class="stat-label">studies confirming ADHD traits that help you start work against you after you start</p>
+        <p class="stat-source">Sage Journals, 2026</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE CARDS — WHAT YOU KEEP TELLING YOURSELF -->
+<section class="block">
+  <div class="container">
+    <span class="label section-label">The pattern</span>
+    <h2 class="section-title">You already know what <em>this sounds like</em>.</h2>
+    <div class="quote-grid">
+      <div class="quote-card">
+        <div class="quote-mark">"</div>
+        <p class="quote-text">I just need more focus and discipline. If I try harder, this time it will stick.</p>
+        <p class="quote-sub">Every system you've tried was built for a brain that isn't yours. You outgrew them in three weeks. Every time. That was never a discipline problem.</p>
+      </div>
+      <div class="quote-card">
+        <div class="quote-mark">"</div>
+        <p class="quote-text">I have too many ideas and can't execute on any of them.</p>
+        <p class="quote-sub">Your brain generates more in twenty minutes than most people produce in a week. That is not the problem to fix. It is the thing nobody has ever built a system around.</p>
+      </div>
+      <div class="quote-card">
+        <div class="quote-mark">"</div>
+        <p class="quote-text">I've always been this way. This is just how I'm wired.</p>
+        <p class="quote-sub">The stories you carry — those were put there. By every school that told you to settle down. By every framework that said just build the habit. That story was never yours.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE REAL COST — NEW -->
+<section class="block alt">
+  <div class="container">
+    <span class="label section-label">The pattern</span>
+    <h2 class="section-title">Here is what the research <em>actually says</em>.</h2>
+    <div class="cost-layout">
+      <div class="cost-copy">
+        <p>Your brain generates creative solutions faster than the operational world can absorb them. So you end up with more on the list. Not less. More ideas that become tasks. More tasks that become the reason the thing you love has to wait.</p>
+        <p>A 2026 meta-analysis synthesizing 47 studies found something specific: the ADHD traits that make you bold enough to start — the risk-taking, the pattern recognition, the willingness to move when others wait — are positively associated with entrepreneurial behavior.</p>
+        <p>Inattention — the other side of the same brain — is negatively associated with what happens after you start.</p>
+        <p>Not starting. After starting. The thing that got you here is working against you in the phase that determines whether it succeeds.</p>
+      </div>
+      <div class="pattern-box">
+        <blockquote>"Every system you have tried has been trying to fix the inattention without understanding what drives it. The ADHD brain does not underperform in the presence of genuine direction. It overperforms. The scattering is the signal — not the problem."</blockquote>
+        <p>The absence of a single clear direction that your brain can fully lock onto. When that direction is named precisely, from the inside — everything else reorganises around it. Not through effort. Through alignment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT CHANGES IN FOUR WEEKS — NEW -->
+<section class="block">
+  <div class="container">
+    <span class="label section-label">The process</span>
+    <h2 class="section-title">What changes <em>in four weeks</em>.</h2>
+    <p style="color: var(--text-muted); max-width: 640px; margin-bottom: 0;">This is not another system layered on top of the same pattern. Here is what the process actually does.</p>
+    <ul class="five-things">
+      <li>
+        <div class="thing-num">01</div>
+        <div class="thing-body">
+          <h4>Something that names your specific direction</h4>
+          <p>Not a goal. Not a mission statement. The specific thing your brain can fully lock onto and sustain. Named from the inside, not from analysis. When your brain has this, the scattering stops — not through discipline, through alignment.</p>
+        </div>
+      </li>
+      <li>
+        <div class="thing-num">02</div>
+        <div class="thing-body">
+          <h4>Something that shows you where the scattering came from</h4>
+          <p>The specific moment, the specific belief, why multiple directions felt safer than one. When you see this, the patience strategy stops being the default. Direction becomes the default.</p>
+        </div>
+      </li>
+      <li>
+        <div class="thing-num">03</div>
+        <div class="thing-body">
+          <h4>A private AI system calibrated to how your brain actually operates</h4>
+          <p>Not the average brain's operating system. Yours. Secure. No generic templates. Built around the bursts, the depth, the pattern recognition — how you specifically work. Not how you're supposed to work.</p>
+        </div>
+      </li>
+      <li>
+        <div class="thing-num">04</div>
+        <div class="thing-body">
+          <h4>The human protocol that holds it</h4>
+          <p>Not three weeks of inspiration. Actual structural change. The piece that makes this different from every productivity system, app, or framework you have tried before.</p>
+        </div>
+      </li>
+      <li>
+        <div class="thing-num">05</div>
+        <div class="thing-body">
+          <h4>One conversation per week that actually lands</h4>
+          <p>Not five conversations where nothing quite arrives. One. Fully. The ease of not managing everything around it — your brain working with you, not against you.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROOF — Nick + Bansari -->
+<section class="block alt">
+  <div class="container">
+    <span class="label section-label">The proof</span>
+    <h2 class="section-title">What happens when the pattern <em>is removed</em>.</h2>
+    <div class="proof-grid">
+      <div class="proof-card">
+        <span class="proof-label">After four weeks</span>
+        <p class="proof-result">The stress part of his brain went silent.</p>
+        <p class="proof-quote">"TetraNoodle disrupted the stories I was telling myself and realigned me to the purpose and action I actually want to create."</p>
+        <p class="proof-detail">Better sleep. Less cravings. For the first two days it felt like stepping into a new body. People stopped and made eye contact. Old connections reappeared. New collaborations started without effort.</p>
+        <p class="proof-attribution"><strong>Nick Harauz</strong> — Video Producer, ADHD</p>
+      </div>
+      <div class="proof-card">
+        <span class="proof-label">After ten days</span>
+        <p class="proof-result">Her mind started trusting her body again.</p>
+        <p class="proof-quote">"My mind has finally started trusting my body again."</p>
+        <p class="proof-detail">Habits aligned without force. Calm in situations that would normally shake her. She danced from night until 6:30 in the morning — no crash, no soreness the next day.</p>
+        <p class="proof-attribution"><strong>Bansari Ranpura</strong> — Entrepreneur, ADHD-adjacent</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY THIS NOT ANOTHER -->
+<section class="block">
+  <div class="container">
+    <span class="label section-label">The difference</span>
+    <h2 class="section-title">Why this, not <em>another productivity system</em>.</h2>
+    <div class="contrasts">
+      <div class="contrast">
+        <h4>Not productivity advice</h4>
+        <p>We don't tell you to wake up at 5am, time-block your calendar, or eat the frog. Every productivity system you have tried was designed for a brain that operates differently than yours. Adding another one on top of the same pattern does not help.</p>
+      </div>
+      <div class="contrast">
+        <h4>Not therapy</h4>
+        <p>We don't diagnose, prescribe, or ask about your childhood. We work with the brain you have, in the business you're running, right now. The process is practical, private, and outcome-focused.</p>
+      </div>
+      <div class="contrast">
+        <h4>A system for your brain</h4>
+        <p>The private AI vault holds the context you'd lose track of. The four-week protocol builds a system around how you actually operate — not the average brain. The diagnostic names what's happening without the shame.</p>
+      </div>
+    </div>
+    <div class="mensa-note">
+      <p>This methodology is <strong>published in the Mensa Research Journal</strong> — peer-reviewed, documented, tested across 14 transformations in multiple countries and conditions. One trained therapist said it reached something in three days that her own decades of practice had never touched. <strong>4 patents in AI/ML.</strong> Microsoft, IBM, Pearson Education background.</p>
+    </div>
+  </div>
+</section>
+
+<!-- HOW THE WAITLIST WORKS -->
+<section class="block alt">
+  <div class="container">
+    <span class="label section-label">The waitlist</span>
+    <h2 class="section-title">How the Clarity Call <em>waitlist works</em>.</h2>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h3>Join</h3>
+        <p>Four questions about your situation. Sixty seconds. Tell us what your week actually looks like and what clarity would mean for you right now.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h3>Personal review</h3>
+        <p>We read every submission ourselves. Within 48 hours you hear back — either a Clarity Call booking or an honest no and where else to look.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h3>Your Clarity Call</h3>
+        <p>Thirty minutes with Manuj. He maps how your mind actually works under the conditions you operate in. The first call is free. You leave with a clearer picture before committing to anything.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO THIS IS FOR -->
+<section class="block">
+  <div class="container">
+    <span class="label section-label">The fit</span>
+    <h2 class="section-title">Be honest <em>with yourself</em>.</h2>
+    <div class="for-grid">
+      <div class="for-card yes">
+        <h4>This is for you if</h4>
+        <ul>
+          <li>You're a founder or executive whose brain moves faster than your calendar</li>
+          <li>You've started everything and finished almost nothing this month</li>
+          <li>You've tried every system and outgrown each one in three weeks</li>
+          <li>You're ready to stop fighting your brain and start operating from it</li>
+        </ul>
+      </div>
+      <div class="for-card no">
+        <h4>This is not for you if</h4>
+        <ul>
+          <li>You're looking for an ADHD diagnosis or medication management</li>
+          <li>You want a 30-day productivity course or a habit-tracking app</li>
+          <li>You need this to be a simple fix that requires no real change</li>
+          <li>You're not ready to be honest about what's actually running</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="container">
+    <h2>Your brain is not the problem. Every system you've been handed was built for someone else's.</h2>
+    <p class="final-cta-sub">We're onboarding in waves. Join the Clarity Call Waitlist and we'll reach out when a spot opens for your profile.</p>
+    <button class="cta-primary" onclick="openModal()">Join the Clarity Call Waitlist</button>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 AI Merge · A TetraNoodle Technologies brand</p>
+  </div>
+</footer>
+
+<!-- MODAL FORM -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">×</button>
+
+    <div class="modal-header">
+      <span class="label">Clarity Call Waitlist</span>
+      <p>We read every submission personally and reach out when a spot opens for your profile.</p>
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- STEP 1 -->
+    <div class="form-step active" data-step="1">
+      <div class="step-counter">Step 1 of 5</div>
+      <h3>What's your business revenue range?</h3>
+      <p class="question-hint">Context for the call — not a filter.</p>
+      <div class="option-group">
+        <label class="option"><input type="radio" name="revenue" value="<1M">Under $1M</label>
+        <label class="option"><input type="radio" name="revenue" value="1-5M">$1M – $5M</label>
+        <label class="option"><input type="radio" name="revenue" value="5-20M">$5M – $20M</label>
+        <label class="option"><input type="radio" name="revenue" value="20-50M">$20M – $50M</label>
+        <label class="option"><input type="radio" name="revenue" value=">50M">Over $50M</label>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-next" onclick="nextStep()">Continue →</button>
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="form-step" data-step="2">
+      <div class="step-counter">Step 2 of 5</div>
+      <h3>What did your last week actually look like?</h3>
+      <p class="question-hint">Be specific — this is the most useful thing you can tell us. "I spent 12 hours on a project nobody asked for and missed payroll" is more useful than "I'm overwhelmed."</p>
+      <textarea placeholder="Tell us what consumed your attention, what got shipped, what stayed on the list..."></textarea>
+      <div class="modal-actions">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Continue →</button>
+      </div>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="form-step" data-step="3">
+      <div class="step-counter">Step 3 of 5</div>
+      <h3>Have you been formally diagnosed with ADHD, or do you suspect it?</h3>
+      <p class="question-hint">Not a filter — context for the call. Whatever's true for you.</p>
+      <div class="option-group">
+        <label class="option"><input type="radio" name="diagnosis" value="diagnosed">Formally diagnosed with ADHD</label>
+        <label class="option"><input type="radio" name="diagnosis" value="suspect">Strongly suspect I have ADHD</label>
+        <label class="option"><input type="radio" name="diagnosis" value="regardless">My brain works this way regardless of label</label>
+        <label class="option"><input type="radio" name="diagnosis" value="prefer-not">Prefer not to say</label>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Continue →</button>
+      </div>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="form-step" data-step="4">
+      <div class="step-counter">Step 4 of 5</div>
+      <h3>What would "clarity" actually mean for you right now?</h3>
+      <p class="question-hint">Pick the one that lands hardest.</p>
+      <div class="option-group">
+        <label class="option"><input type="radio" name="clarity" value="finish">Finishing what I start</label>
+        <label class="option"><input type="radio" name="clarity" value="understand">Understanding why my brain works this way</label>
+        <label class="option"><input type="radio" name="clarity" value="systems">Building systems that don't fight me</label>
+        <label class="option"><input type="radio" name="clarity" value="quarter">Getting through the next quarter without burning out</label>
+        <label class="option"><input type="radio" name="clarity" value="other">Something else</label>
+      </div>
+      <div class="modal-actions">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="nextStep()">Continue →</button>
+      </div>
+    </div>
+
+    <!-- STEP 5 -->
+    <div class="form-step" data-step="5">
+      <div class="step-counter">Step 5 of 5</div>
+      <h3>Last bit — how do we reach you?</h3>
+      <p class="question-hint">You'll hear back within 48 hours either way.</p>
+      <div class="contact-fields">
+        <input type="text" class="text-input" placeholder="First name *">
+        <input type="text" class="text-input" placeholder="Business name *">
+      </div>
+      <div class="contact-fields full">
+        <input type="email" class="text-input" placeholder="Email *">
+        <input type="tel" class="text-input" placeholder="Phone (optional — flagged as higher priority)">
+      </div>
+      <div class="modal-actions">
+        <button class="btn-back" onclick="prevStep()">← Back</button>
+        <button class="btn-next" onclick="submitForm()">Join the Clarity Call Waitlist</button>
+      </div>
+    </div>
+
+    <!-- SUCCESS -->
+    <div class="form-success" id="formSuccess">
+      <div class="success-mark">✓</div>
+      <h3>You're on the waitlist.</h3>
+      <p>We'll review your submission and reach out when a spot opens for your profile.</p>
+      <p style="color: var(--text-dim); font-size: 14px; font-style: italic;">You'll hear from us either way — whether or not we think we're the right fit.</p>
+      <div class="skip-line-box">
+        <span class="skip-line-tag">Can't wait?</span>
+        <p>If your situation is urgent, you can book a paid Clarity Call directly and skip the queue. Same 30-minute session — available now.</p>
+        <!-- TODO: Replace # with paid booking URL when ready -->
+        <button class="btn-skip-line" onclick="window.open('#', '_blank')">Book a Call Now — Skip the Line →</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  let currentStep = 1;
+  const totalSteps = 5;
+
+  function openModal() {
+    document.getElementById('modalOverlay').classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    document.getElementById('modalOverlay').classList.remove('active');
+    document.body.style.overflow = '';
+    setTimeout(() => {
+      currentStep = 1; showStep(1);
+      document.getElementById('formSuccess').classList.remove('active');
+      document.querySelectorAll('.form-step').forEach((s, i) => {
+        if (i === 0) s.classList.add('active');
+        else s.classList.remove('active');
+      });
+      document.getElementById('progressFill').style.width = '20%';
+    }, 300);
+  }
+
+  function showStep(n) {
+    document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+    const step = document.querySelector(`.form-step[data-step="${n}"]`);
+    if (step) step.classList.add('active');
+    document.getElementById('progressFill').style.width = `${(n / totalSteps) * 100}%`;
+  }
+
+  function nextStep() { if (currentStep < totalSteps) { currentStep++; showStep(currentStep); } }
+  function prevStep() { if (currentStep > 1) { currentStep--; showStep(currentStep); } }
+
+  function submitForm() {
+    document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+    document.getElementById('formSuccess').classList.add('active');
+    document.getElementById('progressFill').style.width = '100%';
+  }
+
+  document.getElementById('modalOverlay').addEventListener('click', (e) => {
+    if (e.target.id === 'modalOverlay') closeModal();
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
+
+  document.querySelectorAll('.option').forEach(opt => {
+    opt.addEventListener('click', () => {
+      const input = opt.querySelector('input');
+      if (input.type === 'radio') {
+        document.querySelectorAll(`input[name="${input.name}"]`).forEach(i => {
+          i.closest('.option').classList.remove('selected');
+        });
+        opt.classList.add('selected');
+      } else {
+        setTimeout(() => {
+          if (input.checked) opt.classList.add('selected');
+          else opt.classList.remove('selected');
+        }, 0);
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

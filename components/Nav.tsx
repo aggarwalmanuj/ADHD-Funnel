@@ -1,20 +1,40 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
+import { useEffect, useState } from "react";
 import { useIsMobile } from "../hooks/useIsMobile";
 
 const NAV_LINKS = [
   { label: "The Pain",     href: "#pain" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "Why Us",       href: "#why-us" },
+  { label: "How it works", href: "#how-it-works" },
+  { label: "Why us",       href: "#why-us" },
   { label: "Apply",        href: "#waitlist" },
 ];
 
 export default function Nav() {
   const isMobile = useIsMobile();
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [hoveredLink, setHoveredLink] = useState<number | null>(null);
+  const { scrollY } = useScroll();
+
+  useMotionValueEvent(scrollY, "change", (y) => {
+    setScrolled(y > 24);
+  });
+
+  useEffect(() => {
+    if (open && isMobile) {
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => { document.body.style.overflow = prev; };
+    }
+  }, [open, isMobile]);
+
+  // Heights — mobile stays fixed; desktop shrinks on scroll
+  const navHeight = isMobile ? 88 : scrolled ? 64 : 88;
+  const logoW = isMobile ? 160 : scrolled ? 120 : 180;
+  const logoH = isMobile ? 46 : scrolled ? 36 : 52;
 
   return (
     <>
@@ -24,9 +44,11 @@ export default function Nav() {
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         style={{
           position: "fixed", top: 0, left: 0, right: 0, zIndex: 50,
-          height: 88,
-          background: "rgba(14,31,36,0.97)",
+          background: "rgba(10,10,15,0.97)",
           backdropFilter: "blur(14px)",
+          borderBottom: scrolled ? "1px solid var(--border)" : "1px solid transparent",
+          transition: "border-color 0.4s ease, height 0.4s cubic-bezier(0.22, 1, 0.36, 1)",
+          height: navHeight,
         }}
       >
         <div
@@ -43,26 +65,48 @@ export default function Nav() {
           }}
         >
         {/* Logo */}
-        <Link href="/" style={{ display: "flex", alignItems: "center", flexShrink: 0, justifySelf: "start" }}>
-          <Image src="/images/AI merge Logo.png" alt="AIMerge" width={180} height={52} priority style={{ height: "auto" }} />
+        <Link href="/" style={{ display: "flex", alignItems: "center", flexShrink: 0, justifySelf: "start", transition: "transform 0.4s cubic-bezier(0.22, 1, 0.36, 1)" }}>
+          <Image src="/images/AI merge Logo.png" alt="AIMerge" width={logoW} height={logoH} priority style={{ height: "auto", width: logoW, transition: "width 0.4s cubic-bezier(0.22, 1, 0.36, 1)" }} />
         </Link>
 
         {/* Desktop nav links */}
         {!isMobile && (
-          <div style={{ display: "flex", alignItems: "center", gap: 40, justifySelf: "center" }}>
-            {NAV_LINKS.map(link => (
-              <Link key={link.href} href={link.href} style={{ fontFamily: "var(--font-body)", fontSize: 12.5, fontWeight: 500, letterSpacing: "0.14em", textTransform: "uppercase", color: "var(--text-muted)", textDecoration: "none", transition: "color 0.2s", whiteSpace: "nowrap" }}
-                onMouseEnter={e => (e.currentTarget.style.color = "#ffffff")}
-                onMouseLeave={e => (e.currentTarget.style.color = "var(--text-muted)")}
-              >{link.label}</Link>
-            ))}
+          <div style={{ display: "flex", alignItems: "center", gap: 32, justifySelf: "center" }}>
+            {NAV_LINKS.map((link, i) => {
+              const isHovered = hoveredLink === i;
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  onMouseEnter={() => setHoveredLink(i)}
+                  onMouseLeave={() => setHoveredLink(null)}
+                  style={{ position: "relative", fontFamily: "var(--font-body)", fontSize: 13.5, fontWeight: 500, letterSpacing: "-0.005em", color: isHovered ? "#ffffff" : "var(--text-muted)", textDecoration: "none", whiteSpace: "nowrap", display: "inline-flex", alignItems: "center", gap: 8, transition: "color 0.3s cubic-bezier(0.22, 1, 0.36, 1)" }}
+                >
+                  <span
+                    aria-hidden
+                    style={{
+                      width: 4,
+                      height: 4,
+                      borderRadius: "50%",
+                      background: "var(--accent)",
+                      display: "inline-block",
+                      opacity: isHovered ? 1 : 0,
+                      transform: isHovered ? "translateX(0) scale(1)" : "translateX(-4px) scale(0.5)",
+                      transition: "opacity 0.3s cubic-bezier(0.22, 1, 0.36, 1), transform 0.35s cubic-bezier(0.22, 1, 0.36, 1)",
+                      flexShrink: 0,
+                    }}
+                  />
+                  {link.label}
+                </Link>
+              );
+            })}
           </div>
         )}
 
         {/* Desktop CTA */}
         {!isMobile && (
-          <Link href="#waitlist" style={{ fontFamily: "var(--font-body)", display: "flex", alignItems: "center", gap: 8, paddingLeft: 22, paddingRight: 22, paddingTop: 11, paddingBottom: 11, borderRadius: 9999, fontSize: 14, fontWeight: 600, letterSpacing: "0.04em", background: "#ffffff", color: "var(--bg)", textDecoration: "none", flexShrink: 0, transition: "opacity 0.2s", justifySelf: "end" }}
-            onMouseEnter={e => (e.currentTarget.style.opacity = "0.85")}
+          <Link href="#waitlist" style={{ fontFamily: "var(--font-body)", display: "flex", alignItems: "center", gap: 8, paddingLeft: 22, paddingRight: 22, paddingTop: 11, paddingBottom: 11, borderRadius: 9999, fontSize: 14, fontWeight: 600, letterSpacing: "0.04em", background: "var(--accent)", color: "var(--bg)", textDecoration: "none", flexShrink: 0, transition: "opacity 0.2s", justifySelf: "end" }}
+            onMouseEnter={e => (e.currentTarget.style.opacity = "0.9")}
             onMouseLeave={e => (e.currentTarget.style.opacity = "1")}
           >
             Join the Clarity Call Waitlist
@@ -117,7 +161,7 @@ export default function Nav() {
             animate={{ opacity: 1, y: 0, clipPath: "inset(0 0 0% 0)" }}
             exit={{ opacity: 0, y: -8, clipPath: "inset(0 0 100% 0)" }}
             transition={{ duration: 0.42, ease: [0.32, 0.72, 0, 1] }}
-            style={{ position: "fixed", top: 88, left: 0, right: 0, zIndex: 49, background: "rgba(10,26,31,0.98)", backdropFilter: "blur(14px)", borderBottom: "1px solid var(--border)", padding: "24px 20px 32px", willChange: "clip-path, opacity, transform" }}
+            style={{ position: "fixed", top: 88, left: 0, right: 0, bottom: 0, height: "calc(100vh - 88px)", zIndex: 49, background: "rgba(10,10,15,0.98)", backdropFilter: "blur(14px)", borderBottom: "1px solid var(--border)", padding: "40px 20px 32px", overflowY: "auto", willChange: "clip-path, opacity, transform" }}
           >
             <motion.div
               style={{ display: "flex", flexDirection: "column", gap: 4 }}
@@ -138,7 +182,7 @@ export default function Nav() {
                   }}
                 >
                   <Link href={link.href} onClick={() => setOpen(false)}
-                    style={{ display: "block", fontFamily: "var(--font-body)", fontSize: 15, fontWeight: 500, color: "rgba(255,255,255,0.75)", textDecoration: "none", padding: "12px 0", borderBottom: "1px solid var(--border)" }}
+                    style={{ display: "block", fontFamily: "var(--font-body)", fontSize: 16, fontWeight: 500, color: "rgba(255,255,255,0.85)", textDecoration: "none", padding: "14px 0", borderBottom: "1px solid var(--border)" }}
                   >{link.label}</Link>
                 </motion.div>
               ))}
@@ -149,7 +193,7 @@ export default function Nav() {
                 }}
               >
                 <Link href="#waitlist" onClick={() => setOpen(false)}
-                  style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginTop: 20, padding: "14px 24px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "#ffffff", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)" }}
+                  style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginTop: 20, padding: "14px 24px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)" }}
                 >
                   Join the Clarity Call Waitlist
                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1.5 6h9M6 1.5l4.5 4.5L6 10.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>

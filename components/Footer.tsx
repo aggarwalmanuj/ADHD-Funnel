@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import FadeIn from "./FadeIn";
+import Magnetic from "./Magnetic";
 import { useIsMobile } from "../hooks/useIsMobile";
 
 export default function Footer() {
@@ -42,20 +43,22 @@ export default function Footer() {
                   <div style={{ fontSize: 13, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>Founder, AIMerge</div>
                 </div>
               </div>
-              <Link href="#waitlist" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "15px 32px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "#ffffff", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "opacity 0.2s, transform 0.2s" }}
-                onMouseEnter={e => { e.currentTarget.style.opacity = "0.85"; e.currentTarget.style.transform = "translateY(-1px)"; }}
-                onMouseLeave={e => { e.currentTarget.style.opacity = "1"; e.currentTarget.style.transform = "translateY(0)"; }}
-              >
-                Join the Clarity Call Waitlist
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
-              </Link>
+              <Magnetic>
+                <Link href="#waitlist" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "15px 32px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "opacity 0.2s" }}
+                  onMouseEnter={e => (e.currentTarget.style.opacity = "0.9")}
+                  onMouseLeave={e => (e.currentTarget.style.opacity = "1")}
+                >
+                  Join the Clarity Call Waitlist
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                </Link>
+              </Magnetic>
             </div>
           </FadeIn>
         </div>
       </section>
 
       {/* Footer */}
-      <footer style={{ background: "var(--bg-2)", borderTop: "1px solid var(--border)" }}>
+      <footer style={{ background: "var(--bg)", borderTop: "1px solid var(--border)" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: isMobile ? "48px 20px 32px" : "56px 64px 40px" }}>
           {/* Top row */}
           <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr auto", gap: isMobile ? 40 : "48px 64px", marginBottom: 40 }}>
