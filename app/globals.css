@@ -10,8 +10,8 @@
   --bg-2: #0F1624;
   --bg-card: #141B2E;
   --accent-dark: #C57E20;
-  --text-muted: #8A8A9A;
-  --text-dim: #5A5F6E;
+  --text-muted: #D4D4E4;
+  --text-dim: #A8AEBB;
 
   /* font aliases */
   --font-heading: var(--font-fraunces), 'Fraunces Fallback', Georgia, serif;
