@@ -3,6 +3,8 @@ import { useState } from "react";
 import Link from "next/link";
 import FadeIn from "./FadeIn";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { getFunnelMetadata } from "@/lib/client/funnel-metadata";
+import { track } from "@/lib/fbpixel";
 
 type Page = 1 | 2 | 3 | 4;
 
@@ -67,9 +69,11 @@ export default function WaitlistForm() {
           diagnosis: form.diagnosis,
           clarity: form.clarity,
           clarityOther: form.clarityOther,
+          metadata: getFunnelMetadata(),
         }),
       });
       if (!res.ok) throw new Error(`Request failed with status ${res.status}`);
+      track("Lead", { content_name: "Clarity Call waitlist" });
       setSubmitted(true);
     } catch {
       setSubmitError("Something went wrong submitting your form. Please try again.");

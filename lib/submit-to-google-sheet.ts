@@ -1,3 +1,5 @@
+import { getFunnelMetadata, type FunnelMetadata } from "@/lib/client/funnel-metadata"
+
 export type Audience = "individual" | "team"
 
 type SignupPayload = {
@@ -5,6 +7,7 @@ type SignupPayload = {
   firstName: string
   email: string
   audience?: Audience
+  metadata?: FunnelMetadata
 }
 
 type AnswerPayload = {
@@ -59,7 +62,13 @@ export async function submitSignup(
     const res = await fetch("/api/sheets/append", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ action: "signup", firstName, email, audience }),
+      body: JSON.stringify({
+        action: "signup",
+        firstName,
+        email,
+        audience,
+        metadata: getFunnelMetadata(),
+      }),
       keepalive: true,
     })
     if (!res.ok) {

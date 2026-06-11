@@ -3,8 +3,24 @@ import { z } from "zod"
 import { isCosmosConfigured, appendSignupRow, updateQuestionCell, updateFeedbackCell, updateBeatOutputCell } from "@/lib/server/cosmos-db"
 import { redactError } from "@/lib/security"
 
+const metadataSchema = z
+  .object({
+    utm_source: z.string().max(200).optional(),
+    utm_medium: z.string().max(200).optional(),
+    utm_campaign: z.string().max(200).optional(),
+    utm_term: z.string().max(200).optional(),
+    utm_content: z.string().max(200).optional(),
+    referrer: z.string().max(500).optional(),
+    landing_url: z.string().max(1000).optional(),
+    landing_path: z.string().max(500).optional(),
+    posthog_distinct_id: z.string().max(200).optional(),
+    posthog_session_id: z.string().max(200).optional(),
+  })
+  .optional()
+
 const bodySchema = z.object({
   action: z.enum(["signup", "answer", "feedback", "beat_output"]),
+  metadata: metadataSchema,
   firstName: z.preprocess(
     (v) => (v == null ? "" : String(v).trim().slice(0, 200)),
     z.string().max(200)
@@ -49,12 +65,12 @@ export async function POST(request: Request) {
     )
   }
 
-  const { action, firstName, email, audience, serialNumber, questionNumber, answer, questionText, beatNumber, feedback, output } = parsed.data
+  const { action, firstName, email, audience, serialNumber, questionNumber, answer, questionText, beatNumber, feedback, output, metadata } = parsed.data
 
   try {
     if (action === "signup") {
       // Always appends a new row, even for repeat emails. Returns the new S.No.
-      const sno = await appendSignupRow(firstName, email, audience ?? "")
+      const sno = await appendSignupRow(firstName, email, audience ?? "", metadata)
       return NextResponse.json({ ok: true, serialNumber: sno })
     } else if (action === "answer" && questionNumber && answer !== undefined) {
       if (!serialNumber) {

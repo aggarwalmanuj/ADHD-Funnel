@@ -313,10 +313,24 @@ async function getNextSerialNumber(): Promise<number> {
  * Signup: ALWAYS creates a new document, even for repeat emails.
  * Returns the newly assigned S.No (stored as `id`).
  */
+export type SignupMetadata = {
+  utm_source?: string
+  utm_medium?: string
+  utm_campaign?: string
+  utm_term?: string
+  utm_content?: string
+  referrer?: string
+  landing_url?: string
+  landing_path?: string
+  posthog_distinct_id?: string
+  posthog_session_id?: string
+}
+
 export async function appendSignupRow(
   firstName: string,
   email: string,
-  audience: Audience | "" = ""
+  audience: Audience | "" = "",
+  metadata: SignupMetadata = {},
 ): Promise<number> {
   await ensureInitialized()
   const sno = await getNextSerialNumber()
@@ -327,6 +341,16 @@ export async function appendSignupRow(
     firstName,
     email,
     audience,
+    utm_source: metadata.utm_source ?? "",
+    utm_medium: metadata.utm_medium ?? "",
+    utm_campaign: metadata.utm_campaign ?? "",
+    utm_term: metadata.utm_term ?? "",
+    utm_content: metadata.utm_content ?? "",
+    referrer: metadata.referrer ?? "",
+    landing_url: metadata.landing_url ?? "",
+    landing_path: metadata.landing_path ?? "",
+    posthog_distinct_id: metadata.posthog_distinct_id ?? "",
+    posthog_session_id: metadata.posthog_session_id ?? "",
     question1: "",
     question2: "",
     question3: "",
@@ -514,12 +538,14 @@ export type WaitlistEntry = {
   clarity?: string
   clarityOther?: string
   source?: string
+  metadata?: SignupMetadata
 }
 
-export type WaitlistDocument = WaitlistEntry & {
-  id: string
-  createdAt: string
-}
+export type WaitlistDocument = Omit<WaitlistEntry, "metadata"> &
+  SignupMetadata & {
+    id: string
+    createdAt: string
+  }
 
 /**
  * Persist a Clarity Call waitlist submission. Always creates a new document
@@ -532,6 +558,7 @@ export async function appendWaitlistEntry(entry: WaitlistEntry): Promise<string>
   const container = waitlistContainer()
   const id = crypto.randomUUID()
 
+  const meta = entry.metadata ?? {}
   const doc: WaitlistDocument = {
     id,
     firstName: entry.firstName,
@@ -544,6 +571,16 @@ export async function appendWaitlistEntry(entry: WaitlistEntry): Promise<string>
     clarity: entry.clarity ?? "",
     clarityOther: entry.clarityOther ?? "",
     source: entry.source ?? "adhd-landing",
+    utm_source: meta.utm_source ?? "",
+    utm_medium: meta.utm_medium ?? "",
+    utm_campaign: meta.utm_campaign ?? "",
+    utm_term: meta.utm_term ?? "",
+    utm_content: meta.utm_content ?? "",
+    referrer: meta.referrer ?? "",
+    landing_url: meta.landing_url ?? "",
+    landing_path: meta.landing_path ?? "",
+    posthog_distinct_id: meta.posthog_distinct_id ?? "",
+    posthog_session_id: meta.posthog_session_id ?? "",
     createdAt: new Date().toISOString(),
   }
 

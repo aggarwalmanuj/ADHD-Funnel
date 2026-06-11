@@ -5,6 +5,7 @@ import { Inter, Fraunces } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { ChallengeProvider } from "@/context/challenge-context";
 import FacebookPixelTracker from "@/components/facebook-pixel";
+import FunnelMetadataTracker from "@/components/funnel-metadata-tracker";
 import { CookieConsent } from "@/components/cookie-consent";
 import "./globals.css";
 
@@ -267,6 +268,7 @@ fbq('track', 'PageView');
             </Suspense>
           </>
         ) : null}
+        <FunnelMetadataTracker />
         <ChallengeProvider>{children}</ChallengeProvider>
         <CookieConsent />
         <Analytics />
