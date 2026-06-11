@@ -39,6 +39,11 @@ export default function Hero() {
             right before it lands.
           </h1>
 
+          {/* Tagline */}
+          <p style={{ fontFamily: "var(--font-body)", fontSize: isMobile ? 13 : 14, fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--accent)", marginBottom: 28, marginTop: -12 }}>
+            Find Relief From ADHD In Four Weeks.
+          </p>
+
           {/* Subheadline */}
           <p style={{ fontFamily: "var(--font-body)", fontSize: isMobile ? 15 : 16, lineHeight: 1.8, marginBottom: 28, color: "var(--text-muted)", maxWidth: 560 }}>
             According to research from the University of California San Francisco — <strong style={{ color: "var(--accent)", fontWeight: 500 }}>29% of entrepreneurs self-report ADHD.</strong> That is six times the general adult population. You did not end up here by accident. Your brain is built for this environment. The problem is that every system you have been handed was built for a different one.
