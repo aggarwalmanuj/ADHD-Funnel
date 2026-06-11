@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Fraunces } from "next/font/google";
 import "./globals.css";
 
@@ -20,7 +20,11 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "Clarity Call Waitlist | AIMerge",
   description: "A private system built for executives and founders with ADHD-style brains. Join the Clarity Call waitlist.",
-  viewport: "width=device-width, initial-scale=1",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
