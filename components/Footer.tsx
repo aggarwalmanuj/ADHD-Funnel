@@ -41,7 +41,7 @@ export default function Footer() {
                 <img src="/people/manuj.jpeg" alt="Manuj Aggarwal" style={{ width: 44, height: 44, borderRadius: "50%", objectFit: "cover", objectPosition: "center 20%", flexShrink: 0 }} />
                 <div>
                   <div style={{ fontSize: 14, fontWeight: 600, color: "#fff", fontFamily: "var(--font-body)" }}>Manuj Aggarwal</div>
-                  <div style={{ fontSize: 13, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>Founder, AIMerge</div>
+                  <div style={{ fontSize: 13, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>Founder/CIO - TetraNoodle Technologies</div>
                 </div>
               </div>
               <Magnetic>
