@@ -8,7 +8,7 @@ const items = [
   {
     num: "01",
     title: "Something that names your specific direction",
-    body: "Not a goal. Not a mission statement. The specific thing your brain can fully lock onto and sustain. Named from the inside, not from analysis. When your brain has this, the scattering stops — not through discipline, through alignment.",
+    body: "Not a goal. Not a mission statement. The specific thing your brain can fully lock onto and sustain. Named from the inside, not from analysis. When your brain has this, the scattering stops - not through discipline, through alignment.",
   },
   {
     num: "02",
@@ -18,7 +18,7 @@ const items = [
   {
     num: "03",
     title: "A private AI system calibrated to how your brain actually operates",
-    body: "Not the average brain's operating system. Yours. Secure. No generic templates. Built around the bursts, the depth, the pattern recognition — how you specifically work. Not how you're supposed to work.",
+    body: "Not the average brain's operating system. Yours. Secure. No generic templates. Built around the bursts, the depth, the pattern recognition - how you specifically work. Not how you're supposed to work.",
   },
   {
     num: "04",
@@ -28,7 +28,7 @@ const items = [
   {
     num: "05",
     title: "One conversation per week that actually lands",
-    body: "Not five conversations where nothing quite arrives. One. Fully. The ease of not managing everything around it — your brain working with you, not against you.",
+    body: "Not five conversations where nothing quite arrives. One. Fully. The ease of not managing everything around it - your brain working with you, not against you.",
   },
 ];
 

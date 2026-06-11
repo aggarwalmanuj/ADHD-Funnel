@@ -19,7 +19,7 @@ const rows = [
   {
     tag: "A system for your brain",
     title: "Built for how you actually operate.",
-    body: "The private AI vault holds the context you'd lose track of. The four-week protocol builds a system around how you actually operate — not the average brain. The diagnostic names what's happening without the shame.",
+    body: "The private AI vault holds the context you'd lose track of. The four-week protocol builds a system around how you actually operate - not the average brain. The diagnostic names what's happening without the shame.",
   },
 ];
 
@@ -77,7 +77,7 @@ export default function Differentiation() {
         <FadeIn delay={0.3}>
           <div style={{ marginTop: 40, padding: isMobile ? "20px" : "24px 32px", borderRadius: 10, background: "rgba(232,150,42,0.05)", border: "1px solid rgba(232,150,42,0.15)" }}>
             <p style={{ fontSize: 14, lineHeight: 1.75, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>
-              This methodology is published in the <strong style={{ color: "rgba(255,255,255,0.7)", fontWeight: 500 }}>Mensa Research Journal</strong> — peer-reviewed, documented, tested across 14 transformations in multiple countries. One trained therapist said it reached something in three days that her own decades of practice had never touched. 4 patents in AI/ML. Microsoft, IBM, Pearson Education background.
+              This methodology is published in the <strong style={{ color: "rgba(255,255,255,0.7)", fontWeight: 500 }}>Mensa Research Journal</strong> - peer-reviewed, documented, tested across 14 transformations in multiple countries. One trained therapist said it reached something in three days that her own decades of practice had never touched. 4 patents in AI/ML. Microsoft, IBM, Pearson Education background.
             </p>
           </div>
         </FadeIn>

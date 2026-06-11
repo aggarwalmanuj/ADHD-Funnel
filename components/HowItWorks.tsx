@@ -8,7 +8,7 @@ const EASE = [0.22, 1, 0.36, 1] as const;
 
 const steps = [
   { num: "Step 01", title: "Join the Waitlist", body: "Four questions about your situation. Sixty seconds. Tell us what your week actually looks like and what clarity would mean for you right now." },
-  { num: "Step 02", title: "Personal Review", body: "We read every submission ourselves. Within 48 hours — either a Clarity Call booking or an honest no and where else to look." },
+  { num: "Step 02", title: "Personal Review", body: "We read every submission ourselves. Within 48 hours - either a Clarity Call booking or an honest no and where else to look." },
   { num: "Step 03", title: "Your Clarity Call", body: "Thirty minutes with Manuj. He maps how your mind actually works under the conditions you operate in. The first call is free. You leave with a clearer picture before committing to anything." },
 ];
 

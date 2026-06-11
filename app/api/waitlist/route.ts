@@ -3,9 +3,8 @@ import { z } from "zod"
 import { isCosmosConfigured, appendWaitlistEntry } from "@/lib/server/cosmos-db"
 import { redactError } from "@/lib/security"
 
-// Clarity Call waitlist submission from the landing page (components/WaitlistForm.tsx).
-// Mirrors the validation/graceful-skip style of /api/sheets/append. Every string
-// is trimmed and length-capped server-side (defence in depth) so a malicious
+// Clarity Call waitlist submission from the landing page (components/WaitlistFormCard.tsx).
+// Every string is trimmed and length-capped server-side (defence in depth) so a malicious
 // client can't inflate documents past Cosmos's 2 MB item ceiling.
 const str = (max: number) =>
   z.preprocess(

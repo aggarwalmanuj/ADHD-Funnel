@@ -29,8 +29,8 @@ export default function RealCost() {
             <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
               {[
                 "Your brain generates creative solutions faster than the operational world can absorb them. So you end up with more on the list. Not less. More ideas that become tasks. More tasks that become the reason the thing you love has to wait.",
-                "A 2026 meta-analysis synthesizing 47 studies found something specific: the ADHD traits that make you bold enough to start — the risk-taking, the pattern recognition, the willingness to move when others wait — are positively associated with entrepreneurial behavior.",
-                "Inattention — the other side of the same brain — is negatively associated with what happens after you start.",
+                "A 2026 meta-analysis synthesizing 47 studies found something specific: the ADHD traits that make you bold enough to start - the risk-taking, the pattern recognition, the willingness to move when others wait - are positively associated with entrepreneurial behavior.",
+                "Inattention - the other side of the same brain - is negatively associated with what happens after you start.",
                 "Not starting. After starting. The thing that got you here is working against you in the phase that determines whether it succeeds.",
               ].map((p, i) => (
                 <p key={i} style={{ fontSize: 16, lineHeight: 1.75, color: "rgba(255,255,255,0.85)", fontFamily: "var(--font-body)" }}>{p}</p>
@@ -49,10 +49,10 @@ export default function RealCost() {
                 style={{ position: "absolute", left: 0, top: 0, bottom: 0, width: 3, background: "var(--accent)", transformOrigin: "0% 0%" }}
               />
               <blockquote style={{ fontFamily: "var(--font-heading)", fontSize: isMobile ? 20 : 24, fontStyle: "italic", lineHeight: 1.45, color: "#F2EDE6", margin: 0, marginBottom: 22 }}>
-                &ldquo;Every system you have tried has been trying to fix the inattention without understanding what drives it. The ADHD brain does not underperform in the presence of genuine direction. It overperforms. The scattering is the signal — not the problem.&rdquo;
+                &ldquo;Every system you have tried has been trying to fix the inattention without understanding what drives it. The ADHD brain does not underperform in the presence of genuine direction. It overperforms. The scattering is the signal - not the problem.&rdquo;
               </blockquote>
               <p style={{ fontSize: 15, lineHeight: 1.7, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>
-                The absence of a single clear direction that your brain can fully lock onto. When that direction is named precisely, from the inside — everything else reorganises around it. Not through effort. Through alignment.
+                The absence of a single clear direction that your brain can fully lock onto. When that direction is named precisely, from the inside - everything else reorganises around it. Not through effort. Through alignment.
               </p>
             </div>
           </FadeIn>

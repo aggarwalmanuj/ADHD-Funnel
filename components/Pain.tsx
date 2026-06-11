@@ -14,7 +14,7 @@ const cards = [
   },
   {
     quote: "I've always been this way. This is just how I'm wired.",
-    sub: "The stories you carry — those were put there. By every school that told you to settle down. By every framework that said just build the habit. That story was never yours.",
+    sub: "The stories you carry - those were put there. By every school that told you to settle down. By every framework that said just build the habit. That story was never yours.",
   },
 ];
 

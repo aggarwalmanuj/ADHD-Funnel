@@ -9,7 +9,7 @@ import Testimonials from "@/components/Testimonials";
 import Differentiation from "@/components/Differentiation";
 import HowItWorks from "@/components/HowItWorks";
 import Fit from "@/components/Fit";
-import WaitlistForm from "@/components/WaitlistForm";
+import WaitlistModal from "@/components/WaitlistModal";
 import Footer from "@/components/Footer";
 
 export default function Page() {
@@ -26,8 +26,8 @@ export default function Page() {
       <Differentiation />
       <HowItWorks />
       <Fit />
-      <WaitlistForm />
       <Footer />
+      <WaitlistModal />
     </main>
   );
 }

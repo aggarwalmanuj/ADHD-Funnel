@@ -56,7 +56,7 @@ export default function Testimonials() {
                 <span style={{ color: "var(--accent)" }}>&ldquo;</span>My mind has finally started trusting my body again.<span style={{ color: "var(--accent)" }}>&rdquo;</span>
               </p>
               <p style={{ fontSize: 14, lineHeight: 1.7, color: "var(--text-muted)", marginBottom: 20, fontFamily: "var(--font-body)" }}>
-                Habits aligned without force. Calm in situations that would normally shake her. She danced from night until 6:30 in the morning — no crash, no soreness the next day.
+                Habits aligned without force. Calm in situations that would normally shake her. She danced from night until 6:30 in the morning - no crash, no soreness the next day.
               </p>
               <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                 <div style={{ width: 38, height: 38, borderRadius: "50%", background: "linear-gradient(135deg, var(--accent), #C57E20)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, fontWeight: 700, color: "var(--bg)", flexShrink: 0, fontFamily: "var(--font-body)" }}>B</div>

@@ -4,13 +4,14 @@ import Link from "next/link";
 import FadeIn from "./FadeIn";
 import Magnetic from "./Magnetic";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { openWaitlist } from "../lib/waitlist-modal";
 
 export default function Footer() {
   const isMobile = useIsMobile();
 
   return (
     <>
-      {/* Final CTA — split layout */}
+      {/* Final CTA - split layout */}
       <section style={{ borderTop: "1px solid var(--border)" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: isMobile ? "64px 20px" : "96px 64px", display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", gap: isMobile ? 40 : 80, alignItems: "center" }}>
           {/* Left */}
@@ -44,7 +45,7 @@ export default function Footer() {
                 </div>
               </div>
               <Magnetic>
-                <Link href="#waitlist" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "15px 32px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "opacity 0.2s" }}
+                <Link href="#waitlist" onClick={e => { e.preventDefault(); openWaitlist(); }} style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "15px 32px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "opacity 0.2s" }}
                   onMouseEnter={e => (e.currentTarget.style.opacity = "0.9")}
                   onMouseLeave={e => (e.currentTarget.style.opacity = "1")}
                 >
@@ -88,7 +89,7 @@ export default function Footer() {
                   { label: "Apply", href: "#waitlist" },
                 ].map((item) => (
                   <li key={item.label}>
-                    <Link href={item.href} style={{ fontSize: 15, color: "rgba(255,255,255,0.65)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "color 0.2s" }}
+                    <Link href={item.href} onClick={item.href === "#waitlist" ? (e => { e.preventDefault(); openWaitlist(); }) : undefined} style={{ fontSize: 15, color: "rgba(255,255,255,0.65)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "color 0.2s" }}
                       onMouseEnter={e => { e.currentTarget.style.color = "#fff"; }}
                       onMouseLeave={e => { e.currentTarget.style.color = "rgba(255,255,255,0.65)"; }}
                     >{item.label}</Link>

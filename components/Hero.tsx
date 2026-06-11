@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Magnetic from "./Magnetic";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { openWaitlist } from "../lib/waitlist-modal";
 
 export default function Hero() {
   const isMobile = useIsMobile();
@@ -41,7 +42,7 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p style={{ fontFamily: "var(--font-body)", fontSize: isMobile ? 15 : 16, lineHeight: 1.8, marginBottom: 28, color: "var(--text-muted)", maxWidth: 560 }}>
-            According to research from the University of California San Francisco — <strong style={{ color: "var(--accent)", fontWeight: 500 }}>29% of entrepreneurs self-report ADHD.</strong> That is six times the general adult population. You did not end up here by accident. Your brain is built for this environment. The problem is that every system you have been handed was built for a different one.
+            According to research from the University of California San Francisco - <strong style={{ color: "var(--accent)", fontWeight: 500 }}>29% of entrepreneurs self-report ADHD.</strong> That is six times the general adult population. You did not end up here by accident. Your brain is built for this environment. The problem is that every system you have been handed was built for a different one.
           </p>
 
           {/* Bullets */}
@@ -73,7 +74,7 @@ export default function Hero() {
           {/* CTAs */}
           <div style={{ display: "flex", flexDirection: isMobile ? "column" : "row", alignItems: isMobile ? "stretch" : "center", gap: isMobile ? 12 : 20, flexWrap: "wrap" }}>
             <Magnetic>
-              <Link href="#waitlist" style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "15px 36px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "opacity 0.2s", whiteSpace: "nowrap" }}
+              <Link href="#waitlist" onClick={e => { e.preventDefault(); openWaitlist(); }} style={{ display: "inline-flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "15px 36px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)", transition: "opacity 0.2s", whiteSpace: "nowrap" }}
                 onMouseEnter={e => (e.currentTarget.style.opacity = "0.9")}
                 onMouseLeave={e => (e.currentTarget.style.opacity = "1")}
               >
@@ -87,7 +88,7 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        {/* Right column — image (hidden on mobile) */}
+        {/* Right column - image (hidden on mobile) */}
         {!isMobile && (
           <motion.div
             initial={{ opacity: 0, x: 32 }}

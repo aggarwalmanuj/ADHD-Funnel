@@ -3,7 +3,6 @@ import { Suspense } from "react";
 import { headers } from "next/headers";
 import { Inter, Fraunces } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import { ChallengeProvider } from "@/context/challenge-context";
 import FacebookPixelTracker from "@/components/facebook-pixel";
 import { CookieConsent } from "@/components/cookie-consent";
 import "./globals.css";
@@ -110,7 +109,7 @@ const personSchema = {
   jobTitle: "Founder & Fractional CTO",
   worksFor: { "@id": `${SITE_URL}/#tetranoodle` },
   description:
-    "Founder of TetraNoodle Technologies. Creator of the AI Merge framework — a human–AI decision system peer-reviewed in the Mensa Research Journal and protected by four patents.",
+    "Founder of TetraNoodle Technologies. Creator of the AI Merge framework - a human–AI decision system peer-reviewed in the Mensa Research Journal and protected by four patents.",
   image: `${SITE_URL}/manuj/1762108515290.jpg`,
   url: SITE_URL,
   knowsAbout: [
@@ -141,7 +140,7 @@ const professionalServiceSchema = {
   founder: { "@id": `${SITE_URL}/#manuj` },
   url: SITE_URL,
   description:
-    "AI strategy and Fractional CTO services for founders and operators. Powered by AI Merge — a peer-reviewed human–AI decision system.",
+    "AI strategy and Fractional CTO services for founders and operators. Powered by AI Merge - a peer-reviewed human–AI decision system.",
   areaServed: ["United States", "Canada", "Worldwide"],
   serviceType: [
     "Fractional CTO",
@@ -267,7 +266,7 @@ fbq('track', 'PageView');
             </Suspense>
           </>
         ) : null}
-        <ChallengeProvider>{children}</ChallengeProvider>
+        {children}
         <CookieConsent />
         <Analytics />
         {/* Local-only dev tools (autofill panel). Rendered ONLY outside

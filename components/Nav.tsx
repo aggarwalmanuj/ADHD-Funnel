@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { openWaitlist } from "../lib/waitlist-modal";
 
 const NAV_LINKS = [
   { label: "The Pain",     href: "#pain" },
@@ -31,7 +32,7 @@ export default function Nav() {
     }
   }, [open, isMobile]);
 
-  // Heights — mobile stays fixed; desktop shrinks on scroll
+  // Heights - mobile stays fixed; desktop shrinks on scroll
   const navHeight = isMobile ? 88 : scrolled ? 64 : 88;
   const logoW = isMobile ? 160 : scrolled ? 120 : 180;
   const logoH = isMobile ? 46 : scrolled ? 36 : 52;
@@ -78,6 +79,7 @@ export default function Nav() {
                 <Link
                   key={link.href}
                   href={link.href}
+                  onClick={link.href === "#waitlist" ? (e => { e.preventDefault(); openWaitlist(); }) : undefined}
                   onMouseEnter={() => setHoveredLink(i)}
                   onMouseLeave={() => setHoveredLink(null)}
                   style={{ position: "relative", fontFamily: "var(--font-body)", fontSize: 13.5, fontWeight: 500, letterSpacing: "-0.005em", color: isHovered ? "#ffffff" : "var(--text-muted)", textDecoration: "none", whiteSpace: "nowrap", display: "inline-flex", alignItems: "center", gap: 8, transition: "color 0.3s cubic-bezier(0.22, 1, 0.36, 1)" }}
@@ -105,7 +107,7 @@ export default function Nav() {
 
         {/* Desktop CTA */}
         {!isMobile && (
-          <Link href="#waitlist" style={{ fontFamily: "var(--font-body)", display: "flex", alignItems: "center", gap: 8, paddingLeft: 22, paddingRight: 22, paddingTop: 11, paddingBottom: 11, borderRadius: 9999, fontSize: 14, fontWeight: 600, letterSpacing: "0.04em", background: "var(--accent)", color: "var(--bg)", textDecoration: "none", flexShrink: 0, transition: "opacity 0.2s", justifySelf: "end" }}
+          <Link href="#waitlist" onClick={e => { e.preventDefault(); openWaitlist(); }} style={{ fontFamily: "var(--font-body)", display: "flex", alignItems: "center", gap: 8, paddingLeft: 22, paddingRight: 22, paddingTop: 11, paddingBottom: 11, borderRadius: 9999, fontSize: 14, fontWeight: 600, letterSpacing: "0.04em", background: "var(--accent)", color: "var(--bg)", textDecoration: "none", flexShrink: 0, transition: "opacity 0.2s", justifySelf: "end" }}
             onMouseEnter={e => (e.currentTarget.style.opacity = "0.9")}
             onMouseLeave={e => (e.currentTarget.style.opacity = "1")}
           >
@@ -181,7 +183,7 @@ export default function Nav() {
                     closed: { opacity: 0, y: -8, transition: { duration: 0.18, ease: [0.4, 0, 1, 1] } },
                   }}
                 >
-                  <Link href={link.href} onClick={() => setOpen(false)}
+                  <Link href={link.href} onClick={e => { if (link.href === "#waitlist") { e.preventDefault(); openWaitlist(); } setOpen(false); }}
                     style={{ display: "block", fontFamily: "var(--font-body)", fontSize: 16, fontWeight: 500, color: "rgba(255,255,255,0.85)", textDecoration: "none", padding: "14px 0", borderBottom: "1px solid var(--border)" }}
                   >{link.label}</Link>
                 </motion.div>
@@ -192,7 +194,7 @@ export default function Nav() {
                   closed: { opacity: 0, y: -8, transition: { duration: 0.18, ease: [0.4, 0, 1, 1] } },
                 }}
               >
-                <Link href="#waitlist" onClick={() => setOpen(false)}
+                <Link href="#waitlist" onClick={e => { e.preventDefault(); openWaitlist(); setOpen(false); }}
                   style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginTop: 20, padding: "14px 24px", borderRadius: 9999, fontSize: 14, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)" }}
                 >
                   Join the Clarity Call Waitlist
