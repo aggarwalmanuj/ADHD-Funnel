@@ -36,7 +36,7 @@ export default function Testimonials() {
                 Better sleep. Less cravings. For the first two days it felt like stepping into a new body. People stopped and made eye contact. Old connections reappeared.
               </p>
               <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                <div style={{ width: 38, height: 38, borderRadius: "50%", background: "linear-gradient(135deg, var(--accent), #C57E20)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, fontWeight: 700, color: "var(--bg)", flexShrink: 0, fontFamily: "var(--font-body)" }}>N</div>
+                <img src="/people/Nick.jpg" alt="Nick Harauz" style={{ width: 38, height: 38, borderRadius: "50%", objectFit: "cover", objectPosition: "center 15%", flexShrink: 0 }} />
                 <div>
                   <strong style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#fff", fontFamily: "var(--font-body)" }}>Nick Harauz</strong>
                   <span style={{ fontSize: 12, color: "var(--text-dim)", fontFamily: "var(--font-body)" }}>Video Producer, ADHD</span>
@@ -59,7 +59,7 @@ export default function Testimonials() {
                 Habits aligned without force. Calm in situations that would normally shake her. She danced from night until 6:30 in the morning — no crash, no soreness the next day.
               </p>
               <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                <div style={{ width: 38, height: 38, borderRadius: "50%", background: "linear-gradient(135deg, var(--accent), #C57E20)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13, fontWeight: 700, color: "var(--bg)", flexShrink: 0, fontFamily: "var(--font-body)" }}>B</div>
+                <img src="/people/Bansari.jpg" alt="Bansari Ranpura" style={{ width: 46, height: 46, borderRadius: "50%", objectFit: "cover", objectPosition: "center 12%", flexShrink: 0 }} />
                 <div>
                   <strong style={{ display: "block", fontSize: 14, fontWeight: 600, color: "#fff", fontFamily: "var(--font-body)" }}>Bansari Ranpura</strong>
                   <span style={{ fontSize: 12, color: "var(--text-dim)", fontFamily: "var(--font-body)" }}>Entrepreneur, ADHD-adjacent</span>
