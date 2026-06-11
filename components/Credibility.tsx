@@ -5,11 +5,11 @@ import CountUp from "./CountUp";
 import { useIsMobile } from "../hooks/useIsMobile";
 
 const logos = [
-  { src: "https://www.aimerge.live/logos/microsoft.png?dpl=dpl_4t9nuv3RZs2gMjxMZ9Q8r9UFdCmC", alt: "Microsoft", w: 56, h: 56 },
-  { src: "https://www.aimerge.live/logos/ibm.png?dpl=dpl_4t9nuv3RZs2gMjxMZ9Q8r9UFdCmC", alt: "IBM", w: 100, h: 40 },
-  { src: "https://www.aimerge.live/logos/tmobile.png?dpl=dpl_4t9nuv3RZs2gMjxMZ9Q8r9UFdCmC", alt: "T-Mobile", w: 56, h: 56 },
-  { src: "https://www.aimerge.live/logos/pearson.png?dpl=dpl_4t9nuv3RZs2gMjxMZ9Q8r9UFdCmC", alt: "Pearson", w: 56, h: 56 },
-  { src: "https://www.aimerge.live/logos/un.png?dpl=dpl_4t9nuv3RZs2gMjxMZ9Q8r9UFdCmC", alt: "United Nations", w: 56, h: 56 },
+  { src: "/logos/microsoft.png", alt: "Microsoft", w: 56, h: 56 },
+  { src: "/logos/ibm.png", alt: "IBM", w: 100, h: 40 },
+  { src: "/logos/tmobile.png", alt: "T-Mobile", w: 56, h: 56 },
+  { src: "/logos/pearson.png", alt: "Pearson", w: 56, h: 56 },
+  { src: "/logos/un.png", alt: "United Nations", w: 56, h: 56 },
 ];
 
 const stats = [
@@ -58,7 +58,7 @@ export default function Credibility() {
                   onMouseEnter={e => { e.currentTarget.style.filter = "grayscale(0%) brightness(1)"; e.currentTarget.style.opacity = "1"; }}
                   onMouseLeave={e => { e.currentTarget.style.filter = "grayscale(100%) brightness(1.6)"; e.currentTarget.style.opacity = "0.55"; }}
                 >
-                  <Image src={logo.src} alt={logo.alt} width={isMobile ? Math.round(logo.w * 0.8) : logo.w} height={isMobile ? Math.round(logo.h * 0.8) : logo.h} style={{ display: "block", objectFit: "contain" }} />
+                  <Image src={logo.src} alt={logo.alt} width={isMobile ? Math.round(logo.w * 0.8) : logo.w} height={isMobile ? Math.round(logo.h * 0.8) : logo.h} style={{ display: "block", objectFit: "contain", height: "auto", width: "auto", maxWidth: isMobile ? Math.round(logo.w * 0.8) : logo.w, maxHeight: isMobile ? Math.round(logo.h * 0.8) : logo.h }} />
                 </div>
               ))}
             </div>

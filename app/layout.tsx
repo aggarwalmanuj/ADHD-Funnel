@@ -275,7 +275,7 @@ fbq('track', 'PageView');
             so nothing dev-related ever ships to prod. The nonce is required
             for the strict-dynamic CSP to allow the script. */}
         {process.env.NODE_ENV !== "production" && (
-          <script src="/devtools.js" nonce={nonce} defer />
+          <script src="/devtools.js" nonce={nonce} defer suppressHydrationWarning />
         )}
       </body>
     </html>
