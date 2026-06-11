@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
 
           {/* H1 */}
-          <h1 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(30px, 4.6vw, 64px)", fontWeight: 400, lineHeight: 1.06, marginBottom: 28, letterSpacing: "-0.005em", color: "#F2EDE6", fontVariationSettings: "'opsz' 144", textWrap: "balance" }}>
+          <h1 style={{ fontFamily: "var(--font-heading)", fontSize: isMobile ? "clamp(34px, 9vw, 44px)" : "clamp(30px, 4.6vw, 64px)", fontWeight: isMobile ? 500 : 400, lineHeight: 1.06, marginBottom: 28, letterSpacing: "-0.005em", color: "#F2EDE6", fontVariationSettings: "'opsz' 144", textWrap: "balance" }}>
             Your ADHD brain knows exactly what it&apos;s capable of.{" "}
             <em style={{ fontStyle: "italic", fontWeight: 300, color: "var(--accent)", fontVariationSettings: "'opsz' 144, 'SOFT' 7.6, 'WONK' 1" }}>Something keeps stopping it</em>{" "}
             right before it lands.
