@@ -64,6 +64,16 @@ if (typeof window !== "undefined" && POSTHOG_KEY && (!IS_DEV || POSTHOG_DEV_ENAB
     // Surface SDK logs in dev so "event captured" / "decide returned"
     // are visible in the browser console. Production stays quiet.
     debug: IS_DEV,
+    // Session replay defaults to masking every input so we never persist
+    // PII to PostHog. To opt a specific element in, add the attribute
+    // `data-ph-unmask="true"` to the input element.
+    session_recording: {
+      maskAllInputs: true,
+      maskInputFn: (text, element) => {
+        if (element?.getAttribute?.("data-ph-unmask") === "true") return text
+        return "*".repeat(text.length)
+      },
+    },
     loaded: (ph) => {
       // Defensive: if a previous build called `opt_out_capturing()`,
       // the "NO" flag is sticky in localStorage and silently blocks

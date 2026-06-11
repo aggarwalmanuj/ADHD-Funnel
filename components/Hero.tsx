@@ -34,11 +34,16 @@ export default function Hero() {
           </div>
 
           {/* H1 */}
-          <h1 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(30px, 4.6vw, 64px)", fontWeight: 400, lineHeight: 1.06, marginBottom: 28, letterSpacing: "-0.005em", color: "#F2EDE6", fontVariationSettings: "'opsz' 144", textWrap: "balance" }}>
+          <h1 style={{ fontFamily: "var(--font-heading)", fontSize: isMobile ? "clamp(34px, 9vw, 44px)" : "clamp(30px, 4.6vw, 64px)", fontWeight: isMobile ? 500 : 400, lineHeight: 1.06, marginBottom: 28, letterSpacing: "-0.005em", color: "#F2EDE6", fontVariationSettings: "'opsz' 144", textWrap: "balance" }}>
             Your ADHD brain knows exactly what it&apos;s capable of.{" "}
             <em style={{ fontStyle: "italic", fontWeight: 300, color: "var(--accent)", fontVariationSettings: "'opsz' 144, 'SOFT' 7.6, 'WONK' 1" }}>Something keeps stopping it</em>{" "}
             right before it lands.
           </h1>
+
+          {/* Tagline */}
+          <p style={{ fontFamily: "var(--font-body)", fontSize: isMobile ? 13 : 14, fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--accent)", marginBottom: 28, marginTop: -12 }}>
+            Find Relief From ADHD In Four Weeks.
+          </p>
 
           {/* Subheadline */}
           <p style={{ fontFamily: "var(--font-body)", fontSize: isMobile ? 15 : 16, lineHeight: 1.8, marginBottom: 28, color: "var(--text-muted)", maxWidth: 560 }}>

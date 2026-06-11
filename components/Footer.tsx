@@ -38,7 +38,7 @@ export default function Footer() {
                 &ldquo;This is not about working harder. It&apos;s about understanding the brain you actually have and building systems that work with it.&rdquo;
               </p>
               <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-                <div style={{ width: 44, height: 44, borderRadius: "50%", background: "var(--accent)", opacity: 0.2 }} />
+                <img src="/people/manuj.jpeg" alt="Manuj Aggarwal" style={{ width: 44, height: 44, borderRadius: "50%", objectFit: "cover", objectPosition: "center 20%", flexShrink: 0 }} />
                 <div>
                   <div style={{ fontSize: 14, fontWeight: 600, color: "#fff", fontFamily: "var(--font-body)" }}>Manuj Aggarwal</div>
                   <div style={{ fontSize: 13, color: "var(--text-muted)", fontFamily: "var(--font-body)" }}>Founder, AIMerge</div>

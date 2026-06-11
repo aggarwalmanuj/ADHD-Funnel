@@ -12,6 +12,21 @@ const str = (max: number) =>
     z.string().max(max)
   )
 
+const metadataSchema = z
+  .object({
+    utm_source: str(200).optional(),
+    utm_medium: str(200).optional(),
+    utm_campaign: str(200).optional(),
+    utm_term: str(200).optional(),
+    utm_content: str(200).optional(),
+    referrer: str(500).optional(),
+    landing_url: str(1000).optional(),
+    landing_path: str(500).optional(),
+    posthog_distinct_id: str(200).optional(),
+    posthog_session_id: str(200).optional(),
+  })
+  .optional()
+
 const bodySchema = z.object({
   firstName: str(200).pipe(z.string().min(1, "First name is required")),
   businessName: str(200).pipe(z.string().min(1, "Business name is required")),
@@ -25,6 +40,7 @@ const bodySchema = z.object({
   diagnosis: str(80).optional(),
   clarity: str(80).optional(),
   clarityOther: str(500).optional(),
+  metadata: metadataSchema,
 })
 
 export async function POST(request: Request) {
@@ -52,7 +68,12 @@ export async function POST(request: Request) {
   }
 
   try {
-    const id = await appendWaitlistEntry({ ...parsed.data, source: "adhd-landing" })
+    const { metadata, ...entry } = parsed.data
+    const id = await appendWaitlistEntry({
+      ...entry,
+      source: "adhd-landing",
+      metadata,
+    })
     return NextResponse.json({ ok: true, id })
   } catch (e) {
     console.error("[waitlist]", redactError(e))

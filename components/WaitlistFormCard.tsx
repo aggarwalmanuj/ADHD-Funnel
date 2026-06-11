@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useIsMobile } from "../hooks/useIsMobile";
+import { getFunnelMetadata } from "../lib/client/funnel-metadata";
 
 type Page = 1 | 2 | 3 | 4;
 
@@ -67,6 +68,7 @@ export default function WaitlistFormCard({ onClose }: { onClose?: () => void }) 
           diagnosis: form.diagnosis,
           clarity: form.clarity,
           clarityOther: form.clarityOther,
+          metadata: getFunnelMetadata(),
         }),
       });
       if (!res.ok) throw new Error(`Request failed with status ${res.status}`);

@@ -1,7 +1,7 @@
 import { CosmosClient, type Container, type Database } from "@azure/cosmos"
 
 /* ═══════════════════════════════════════════════
-   Cosmos DB Client — Clarity Call waitlist storage
+   Cosmos DB Client - Clarity Call waitlist storage
    ═══════════════════════════════════════════════ */
 
 const ENDPOINT = process.env.COSMOS_ENDPOINT ?? ""
@@ -47,8 +47,23 @@ export function isCosmosConfigured(): boolean {
 }
 
 /* ═══════════════════════════════════════════════
-   Waitlist — Clarity Call landing-page submissions
+   Waitlist - Clarity Call landing-page submissions
    ═══════════════════════════════════════════════ */
+
+// Attribution captured client-side (see components/funnel-metadata-tracker.tsx)
+// and attached to each submission.
+export type SignupMetadata = {
+  utm_source?: string
+  utm_medium?: string
+  utm_campaign?: string
+  utm_term?: string
+  utm_content?: string
+  referrer?: string
+  landing_url?: string
+  landing_path?: string
+  posthog_distinct_id?: string
+  posthog_session_id?: string
+}
 
 export type WaitlistEntry = {
   firstName: string
@@ -64,16 +79,18 @@ export type WaitlistEntry = {
   // Lifecycle marker shown as a badge in the admin panel. Empty for a plain
   // waitlist signup; "paid-call" once the person books a paid Clarity Call.
   status?: string
+  metadata?: SignupMetadata
 }
 
-export type WaitlistDocument = WaitlistEntry & {
-  id: string
-  createdAt: string
-}
+export type WaitlistDocument = Omit<WaitlistEntry, "metadata"> &
+  SignupMetadata & {
+    id: string
+    createdAt: string
+  }
 
 /**
  * Persist a Clarity Call waitlist submission. Always creates a new document
- * (repeat emails are allowed — someone may re-apply). Uses a random UUID id.
+ * (repeat emails are allowed - someone may re-apply). Uses a random UUID id.
  * Partition key is /email.
  */
 export async function appendWaitlistEntry(entry: WaitlistEntry): Promise<string> {
@@ -81,6 +98,7 @@ export async function appendWaitlistEntry(entry: WaitlistEntry): Promise<string>
   const container = waitlistContainer()
   const id = crypto.randomUUID()
 
+  const meta = entry.metadata ?? {}
   const doc: WaitlistDocument = {
     id,
     firstName: entry.firstName,
@@ -94,6 +112,16 @@ export async function appendWaitlistEntry(entry: WaitlistEntry): Promise<string>
     clarityOther: entry.clarityOther ?? "",
     source: entry.source ?? "adhd-landing",
     status: entry.status ?? "",
+    utm_source: meta.utm_source ?? "",
+    utm_medium: meta.utm_medium ?? "",
+    utm_campaign: meta.utm_campaign ?? "",
+    utm_term: meta.utm_term ?? "",
+    utm_content: meta.utm_content ?? "",
+    referrer: meta.referrer ?? "",
+    landing_url: meta.landing_url ?? "",
+    landing_path: meta.landing_path ?? "",
+    posthog_distinct_id: meta.posthog_distinct_id ?? "",
+    posthog_session_id: meta.posthog_session_id ?? "",
     createdAt: new Date().toISOString(),
   }
 

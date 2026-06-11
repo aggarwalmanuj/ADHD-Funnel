@@ -58,19 +58,60 @@ export function CookieConsent() {
 
   return (
     <div
-      data-palette="marine"
       role="dialog"
       aria-modal="false"
       aria-label="Cookie preferences"
       aria-live="polite"
-      className={`cookie-consent fixed inset-x-0 bottom-0 z-50 px-4 pb-4 sm:px-6 sm:pb-6 ${
-        exiting ? "is-exit" : ""
-      }`}
+      style={{
+        position: "fixed",
+        left: 0,
+        right: 0,
+        bottom: 0,
+        zIndex: 50,
+        padding: "0 16px 16px",
+        fontFamily: "var(--font-body)",
+        opacity: exiting ? 0 : 1,
+        transform: exiting ? "translateY(12px)" : "translateY(0)",
+        transition: "opacity 0.32s ease, transform 0.32s ease",
+        pointerEvents: exiting ? "none" : "auto",
+      }}
     >
-      <div className="mx-auto flex max-w-3xl flex-col gap-4 rounded-md border border-border bg-card p-5 shadow-[0_30px_80px_-30px_rgba(var(--shadow-ink),0.65)] backdrop-blur-xl sm:flex-row sm:items-start sm:gap-6 sm:p-6">
-        <div className="flex-1">
-          <p className="eyebrow mb-2 text-foreground/65">A quiet note</p>
-          <p className="text-[14px] leading-[1.7] text-foreground/85 sm:text-[14.5px]">
+      <div
+        style={{
+          maxWidth: 760,
+          margin: "0 auto",
+          display: "flex",
+          flexDirection: "column",
+          gap: 16,
+          padding: 20,
+          borderRadius: 10,
+          border: "1px solid var(--border)",
+          background: "var(--bg-card)",
+          boxShadow: "0 30px 80px -30px rgba(0,0,0,0.65)",
+          backdropFilter: "blur(12px)",
+        }}
+      >
+        <div style={{ flex: 1 }}>
+          <p
+            style={{
+              fontSize: 10,
+              fontWeight: 600,
+              letterSpacing: "0.2em",
+              textTransform: "uppercase",
+              color: "var(--accent)",
+              marginBottom: 8,
+            }}
+          >
+            A quiet note
+          </p>
+          <p
+            style={{
+              fontSize: 14,
+              lineHeight: 1.7,
+              color: "rgba(255,255,255,0.85)",
+              margin: 0,
+            }}
+          >
             We use a small set of cookies to keep the site running and to
             understand which parts of the reading land. Your responses are
             confidential and will never be shared with third parties. They may
@@ -78,25 +119,80 @@ export function CookieConsent() {
             ensure the right support reaches you.{" "}
             <Link
               href="/privacy"
-              className="font-serif-italic underline-offset-4 hover:underline"
+              style={{
+                fontFamily: "var(--font-heading)",
+                fontStyle: "italic",
+                color: "var(--accent)",
+                textDecoration: "underline",
+                textUnderlineOffset: 4,
+              }}
             >
               Read the privacy notes
             </Link>
             .
           </p>
         </div>
-        <div className="flex shrink-0 flex-col gap-2.5 sm:flex-row sm:items-center">
+        <div
+          style={{
+            display: "flex",
+            flexShrink: 0,
+            gap: 10,
+            justifyContent: "flex-end",
+          }}
+        >
           <button
             type="button"
             onClick={() => dismiss("rejected")}
-            className="s-btn-ghost justify-center text-[0.7rem]"
+            style={{
+              padding: "10px 18px",
+              fontSize: 11,
+              fontWeight: 600,
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+              fontFamily: "var(--font-body)",
+              background: "transparent",
+              color: "var(--text-muted)",
+              border: "1px solid var(--border)",
+              borderRadius: 6,
+              cursor: "pointer",
+              transition: "color 0.2s, border-color 0.2s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.color = "#fff";
+              e.currentTarget.style.borderColor = "var(--text-muted)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.color = "var(--text-muted)";
+              e.currentTarget.style.borderColor = "var(--border)";
+            }}
           >
             Reject
           </button>
           <button
             type="button"
             onClick={() => dismiss("accepted")}
-            className="s-btn justify-center text-[0.7rem]"
+            style={{
+              padding: "10px 18px",
+              fontSize: 11,
+              fontWeight: 600,
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+              fontFamily: "var(--font-body)",
+              background: "var(--accent)",
+              color: "var(--accent-foreground)",
+              border: "1px solid var(--accent)",
+              borderRadius: 6,
+              cursor: "pointer",
+              transition: "background 0.2s, border-color 0.2s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "var(--accent-dark)";
+              e.currentTarget.style.borderColor = "var(--accent-dark)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "var(--accent)";
+              e.currentTarget.style.borderColor = "var(--accent)";
+            }}
           >
             Accept
           </button>

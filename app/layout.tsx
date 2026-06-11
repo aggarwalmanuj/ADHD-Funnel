@@ -4,6 +4,7 @@ import { headers } from "next/headers";
 import { Inter, Fraunces } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import FacebookPixelTracker from "@/components/facebook-pixel";
+import FunnelMetadataTracker from "@/components/funnel-metadata-tracker";
 import { CookieConsent } from "@/components/cookie-consent";
 import "./globals.css";
 
@@ -266,6 +267,7 @@ fbq('track', 'PageView');
             </Suspense>
           </>
         ) : null}
+        <FunnelMetadataTracker />
         {children}
         <CookieConsent />
         <Analytics />
@@ -274,7 +276,7 @@ fbq('track', 'PageView');
             so nothing dev-related ever ships to prod. The nonce is required
             for the strict-dynamic CSP to allow the script. */}
         {process.env.NODE_ENV !== "production" && (
-          <script src="/devtools.js" nonce={nonce} defer />
+          <script src="/devtools.js" nonce={nonce} defer suppressHydrationWarning />
         )}
       </body>
     </html>
