@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import FadeIn from "./FadeIn";
 import { useIsMobile } from "../hooks/useIsMobile";
 
@@ -9,6 +10,8 @@ export default function WaitlistForm() {
   const isMobile = useIsMobile();
   const [page, setPage] = useState<Page>(1);
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [form, setForm] = useState({
     revenue: "",
@@ -44,7 +47,35 @@ export default function WaitlistForm() {
 
   function next() { if (validate()) setPage(p => Math.min(p + 1, 4) as Page); }
   function back() { setPage(p => Math.max(p - 1, 1) as Page); }
-  function submit() { if (!validate()) return; console.log("Form submitted:", { ...form, source: "adhd" }); setTimeout(() => setSubmitted(true), 600); }
+
+  async function submit() {
+    if (!validate() || submitting) return;
+    setSubmitting(true);
+    setSubmitError(null);
+    try {
+      const res = await fetch("/api/waitlist", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        keepalive: true,
+        body: JSON.stringify({
+          firstName: form.firstName,
+          businessName: form.businessName,
+          email: form.email,
+          phone: form.phone,
+          revenue: form.revenue,
+          lastWeek: form.lastWeek,
+          diagnosis: form.diagnosis,
+          clarity: form.clarity,
+          clarityOther: form.clarityOther,
+        }),
+      });
+      if (!res.ok) throw new Error(`Request failed with status ${res.status}`);
+      setSubmitted(true);
+    } catch {
+      setSubmitError("Something went wrong submitting your form. Please try again.");
+      setSubmitting(false);
+    }
+  }
 
   const tabs = ["Revenue", "Your Week", "Your Brain", "Contact"];
   const progress = (page / 4) * 100;
@@ -137,11 +168,24 @@ export default function WaitlistForm() {
                   <div style={{ borderRadius: 10, padding: "20px 24px", background: "rgba(232,150,42,0.06)", border: "1px solid rgba(232,150,42,0.2)", textAlign: "left" }}>
                     <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--accent)", marginBottom: 8, fontFamily: "var(--font-body)" }}>Can&apos;t wait?</div>
                     <p style={{ fontSize: 13, lineHeight: 1.7, color: "var(--text-muted)", marginBottom: 14, fontFamily: "var(--font-body)" }}>Book a paid Clarity Call directly and skip the queue. Same 30-minute session — available now.</p>
-                    {/* TODO: Replace # with paid booking URL when ready */}
-                    <a href="#" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "9px 20px", borderRadius: 9999, fontSize: 13, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)" }}>
+                    <a href="https://calendly.com/manuj/skip-the-waitlist-priority-call-adhd" target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "9px 20px", borderRadius: 9999, fontSize: 13, fontWeight: 600, background: "var(--accent)", color: "var(--bg)", textDecoration: "none", fontFamily: "var(--font-body)" }}>
                       Book a Call Now — Skip the Line
                       <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1.5 6h9M6 1.5l4.5 4.5L6 10.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
                     </a>
+                  </div>
+
+                  {/* Or continue straight into the free Clarity assessment funnel
+                      (questions → score → summary → report — the ported backend).
+                      first/email carry over as query params so the funnel's
+                      audience page pre-fills them. */}
+                  <div style={{ marginTop: 24, paddingTop: 24, borderTop: "1px solid var(--border)" }}>
+                    <p style={{ fontSize: 13, lineHeight: 1.7, color: "var(--text-muted)", marginBottom: 14, fontFamily: "var(--font-body)" }}>
+                      Prefer to start now? Take the free 10-minute Clarity assessment and get your personalized reading.
+                    </p>
+                    <Link href={`/challenge/audience?first=${encodeURIComponent(form.firstName)}&email=${encodeURIComponent(form.email)}`} style={{ display: "inline-flex", alignItems: "center", gap: 8, padding: "10px 22px", borderRadius: 9999, fontSize: 13, fontWeight: 600, background: "transparent", color: "var(--accent)", border: "1px solid rgba(232,150,42,0.45)", textDecoration: "none", fontFamily: "var(--font-body)" }}>
+                      Start the Clarity Assessment
+                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M1.5 6h9M6 1.5l4.5 4.5L6 10.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                    </Link>
                   </div>
                 </div>
               ) : (
@@ -278,12 +322,18 @@ export default function WaitlistForm() {
                         <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
                       </button>
                     ) : (
-                      <button suppressHydrationWarning onClick={submit} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "var(--accent)", color: "var(--bg)", border: "none", padding: "12px 20px", borderRadius: 9999, fontSize: isMobile ? 13 : 14, fontWeight: 600, cursor: "pointer", fontFamily: "var(--font-body)" }}>
-                        Join the Clarity Call Waitlist
-                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                      <button suppressHydrationWarning onClick={submit} disabled={submitting} style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "var(--accent)", color: "var(--bg)", border: "none", padding: "12px 20px", borderRadius: 9999, fontSize: isMobile ? 13 : 14, fontWeight: 600, cursor: submitting ? "wait" : "pointer", opacity: submitting ? 0.7 : 1, fontFamily: "var(--font-body)" }}>
+                        {submitting ? "Joining…" : "Join the Clarity Call Waitlist"}
+                        {!submitting && <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M2 6.5h9M7 2l4.5 4.5L7 11" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>}
                       </button>
                     )}
                   </div>
+
+                  {submitError && (
+                    <p style={{ marginTop: 14, fontSize: 13, color: "#d47070", textAlign: "right", fontFamily: "var(--font-body)" }}>
+                      {submitError}
+                    </p>
+                  )}
 
                 </div>
               )}

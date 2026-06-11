@@ -27,21 +27,17 @@ export default function Hero() {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
         >
           {/* Section tag */}
-          <div style={{ display: "inline-flex", alignItems: "center", marginLeft: 0, fontSize: 10, fontWeight: 500, letterSpacing: "0.22em", textTransform: "uppercase", color: "var(--text-dim)", marginBottom: 28, fontFamily: "var(--font-body)", padding: "10px 20px", border: "1px solid var(--border)", borderRadius: 9999 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 10, fontWeight: 500, letterSpacing: "0.22em", textTransform: "uppercase", color: "var(--text-dim)", marginBottom: 28, fontFamily: "var(--font-body)" }}>
+            <span style={{ width: 5, height: 5, borderRadius: "50%", background: "var(--text-dim)", display: "inline-block", flexShrink: 0 }} />
             For executives, founders, and operators with ADHD-style brains
           </div>
 
           {/* H1 */}
-          <h1 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(26px, 4vw, 56px)", fontWeight: 400, lineHeight: 1.06, marginBottom: 28, letterSpacing: "-0.005em", color: "#F2EDE6", fontVariationSettings: "'opsz' 144", textWrap: "balance" }}>
+          <h1 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(30px, 4.6vw, 64px)", fontWeight: 400, lineHeight: 1.06, marginBottom: 28, letterSpacing: "-0.005em", color: "#F2EDE6", fontVariationSettings: "'opsz' 144", textWrap: "balance" }}>
             Your ADHD brain knows exactly what it&apos;s capable of.{" "}
             <em style={{ fontStyle: "italic", fontWeight: 300, color: "var(--accent)", fontVariationSettings: "'opsz' 144, 'SOFT' 7.6, 'WONK' 1" }}>Something keeps stopping it</em>{" "}
             right before it lands.
           </h1>
-
-          {/* Tagline */}
-          <p style={{ fontFamily: "var(--font-body)", fontSize: isMobile ? 12 : 13, fontWeight: 600, letterSpacing: "0.18em", textTransform: "uppercase", color: "var(--accent)", marginTop: -12, marginBottom: 28 }}>
-            Find relief from ADHD in four weeks.
-          </p>
 
           {/* Subheadline */}
           <p style={{ fontFamily: "var(--font-body)", fontSize: isMobile ? 15 : 16, lineHeight: 1.8, marginBottom: 28, color: "var(--text-muted)", maxWidth: 560 }}>

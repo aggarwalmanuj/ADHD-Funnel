@@ -29,9 +29,19 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+dev.log
+dev.err
 
-# env files (can opt-in for committing if needed)
+# env files (can opt-in for committing if needed) — but keep example templates
 .env*
+!.env.example
+!.env.local.example
+
+# claude local settings
+.claude/settings.local.json
+
+# local-only dev tools (autofill panel) — never ship to prod
+/public/devtools.js
 
 # vercel
 .vercel
